@@ -30,14 +30,14 @@ export function SalesNotification() {
       // Set timeout to hide
       setTimeout(() => {
         setIsVisible(false);
-      }, 4000); // Keep it visible for 4 seconds
+      }, 3000); // Keep it visible for 3 seconds
     };
     
     // Show first one after a small delay to let the user settle
     const firstTimeout = setTimeout(showAndHideNotification, 5000);
 
     // Then set an interval for subsequent notifications
-    const intervalId = setInterval(showAndHideNotification, 9000); // Appear every 9 seconds
+    const intervalId = setInterval(showAndHideNotification, 8000); // Appear every 8 seconds (3s visible + 5s hidden)
 
     return () => {
       clearTimeout(firstTimeout);
