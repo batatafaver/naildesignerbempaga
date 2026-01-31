@@ -35,7 +35,7 @@ export default function Home() {
             Trabalhe como manicure e pare de ganhar pouco pelo esforço que você faz
           </h1>
           <p className="mt-6 max-w-3xl mx-auto text-lg md:text-xl text-foreground/80 font-headline">
-            Descubra como cobrar mais como manicure, mesmo tendo medo de perder clientes, sem brigar por preço e sem depender de indicação.
+            Descubra como cobrar mais como manicure, <em>mesmo tendo medo de perder clientes</em>, <em>sem brigar por preço</em> e <em>sem depender de indicação</em>.
           </p>
           <Button asChild size="lg" className="mt-8 group animate-pulse">
             <Link href="#pricing">
@@ -58,7 +58,7 @@ export default function Home() {
                 <CheckListItem>Fica desconfortável quando precisa falar de preço</CheckListItem>
                 <CheckListItem>Tem medo de reajustar e perder clientes</CheckListItem>
               </ul>
-              <p className="mt-8 text-center font-bold text-lg text-primary">... então esse material é pra você.</p>
+              <p className="mt-8 text-center font-bold text-lg text-primary">... <strong>então esse material é pra você.</strong></p>
             </CardContent>
           </Card>
         </div>
@@ -72,13 +72,13 @@ export default function Home() {
             A maioria das manicures não ganha pouco porque trabalha mal. Ganha pouco porque:
           </p>
           <div className="mt-8 space-y-4 text-left mx-auto max-w-md">
-            <p className="flex items-center gap-3"><XCircle className="text-destructive w-6 h-6 shrink-0"/> Não sabe se posicionar</p>
-            <p className="flex items-center gap-3"><XCircle className="text-destructive w-6 h-6 shrink-0"/> Não tem regras claras</p>
-            <p className="flex items-center gap-3"><XCircle className="text-destructive w-6 h-6 shrink-0"/> Não sabe como falar de preço</p>
-            <p className="flex items-center gap-3"><XCircle className="text-destructive w-6 h-6 shrink-0"/> Aceita tudo por medo de ficar sem cliente</p>
+            <p className="flex items-center gap-3"><XCircle className="text-destructive w-6 h-6 shrink-0"/> Não sabe se <strong>posicionar</strong></p>
+            <p className="flex items-center gap-3"><XCircle className="text-destructive w-6 h-6 shrink-0"/> Não tem <strong>regras claras</strong></p>
+            <p className="flex items-center gap-3"><XCircle className="text-destructive w-6 h-6 shrink-0"/> Não sabe como <strong>falar de preço</strong></p>
+            <p className="flex items-center gap-3"><XCircle className="text-destructive w-6 h-6 shrink-0"/> Aceita tudo por <strong>medo</strong> de ficar sem cliente</p>
           </div>
           <div className="mt-8 bg-card p-6 rounded-lg shadow-md inline-block">
-            <p className="text-xl font-bold">Resultado? 👉 Agenda cheia, corpo cansado, bolso vazio.</p>
+            <p className="text-xl font-bold"><strong>Resultado? 👉 Agenda cheia, corpo cansado, bolso vazio.</strong></p>
           </div>
         </div>
       </section>
@@ -99,11 +99,11 @@ export default function Home() {
             )}
           </div>
           <div>
-            <h2 className="font-headline text-4xl md:text-5xl font-extrabold text-primary">Manicure Bem Paga</h2>
+            <h2 className="font-headline text-4xl md:text-5xl font-extrabold text-primary"><strong>Manicure Bem Paga</strong></h2>
             <p className="mt-4 text-lg md:text-xl">
-              Um guia prático que te mostra como se posicionar, cobrar melhor e ser respeitada, sem precisar virar influencer e sem depender de sorte.
+              Um guia prático que te mostra como se posicionar, <strong>cobrar melhor</strong> e <strong>ser respeitada</strong>, sem precisar virar influencer e sem depender de sorte.
             </p>
-            <p className="mt-4 text-lg font-semibold">Nada técnico. Nada complicado. Só o que funciona na vida real.</p>
+            <p className="mt-4 text-lg font-semibold"><strong>Nada técnico. Nada complicado.</strong> <em>Só o que funciona na vida real.</em></p>
              <Button asChild size="lg" className="mt-8 group">
               <Link href="#pricing">
                 Ver Preço e Garantia <ArrowRight className="ml-2 h-5 w-5 group-hover:translate-x-1 transition-transform" />
@@ -122,42 +122,42 @@ export default function Home() {
               <div className="bg-primary/10 p-3 rounded-lg"><Wallet className="w-6 h-6 text-primary" /></div>
               <div>
                 <h3 className="font-bold text-lg">Definir um preço justo</h3>
-                <p className="text-foreground/80">Sem copiar o valor da concorrência e com confiança.</p>
+                <p className="text-foreground/80"><em>Sem copiar o valor da concorrência e com confiança.</em></p>
               </div>
             </div>
             <div className="flex items-start gap-4">
               <div className="bg-primary/10 p-3 rounded-lg"><Sparkles className="w-6 h-6 text-primary" /></div>
               <div>
                 <h3 className="font-bold text-lg">Parar de se sentir culpada</h3>
-                <p className="text-foreground/80">Entenda o valor do seu trabalho e cobre sem culpa.</p>
+                <p className="text-foreground/80"><em>Entenda o valor do seu trabalho e cobre sem culpa.</em></p>
               </div>
             </div>
             <div className="flex items-start gap-4">
               <div className="bg-primary/10 p-3 rounded-lg"><MessageSquare className="w-6 h-6 text-primary" /></div>
               <div>
                 <h3 className="font-bold text-lg">Responder ao "tá caro"</h3>
-                <p className="text-foreground/80">Técnicas e mensagens prontas para contornar objeções.</p>
+                <p className="text-foreground/80"><em>Técnicas e mensagens prontas para contornar objeções.</em></p>
               </div>
             </div>
             <div className="flex items-start gap-4">
               <div className="bg-primary/10 p-3 rounded-lg"><TrendingUp className="w-6 h-6 text-primary" /></div>
               <div>
                 <h3 className="font-bold text-lg">Anunciar reajuste</h3>
-                <p className="text-foreground/80">A forma correta de comunicar aumentos sem criar conflito.</p>
+                <p className="text-foreground/80"><em>A forma correta de comunicar aumentos sem criar conflito.</em></p>
               </div>
             </div>
             <div className="flex items-start gap-4">
               <div className="bg-primary/10 p-3 rounded-lg"><BookOpen className="w-6 h-6 text-primary" /></div>
               <div>
                 <h3 className="font-bold text-lg">Criar regras simples</h3>
-                <p className="text-foreground/80">Para filtrar clientes-problema e ter mais tranquilidade.</p>
+                <p className="text-foreground/80"><em>Para filtrar clientes-problema e ter mais tranquilidade.</em></p>
               </div>
             </div>
             <div className="flex items-start gap-4">
               <div className="bg-primary/10 p-3 rounded-lg"><NailPolish className="w-6 h-6 text-primary" /></div>
               <div>
                 <h3 className="font-bold text-lg">Ganhar mais, trabalhando menos</h3>
-                <p className="text-foreground/80">Otimize sua agenda e sua precificação para ser mais lucrativa.</p>
+                <p className="text-foreground/80"><em>Otimize sua agenda e sua precificação para ser mais lucrativa.</em></p>
               </div>
             </div>
           </div>
@@ -177,8 +177,8 @@ export default function Home() {
                 <CheckListItem>Linguagem fácil, sem termos difíceis</CheckListItem>
               </ul>
               <div className="text-center bg-secondary p-6 rounded-lg">
-                <p className="font-bold text-lg">Pode ser consumido em 1 a 2 horas</p>
-                <p className="text-primary font-semibold text-xl mt-2">Aplicação imediata!</p>
+                <p className="font-bold text-lg">Pode ser consumido em <em>1 a 2 horas</em></p>
+                <p className="text-primary font-semibold text-xl mt-2">Aplicação <strong>imediata!</strong></p>
               </div>
             </CardContent>
           </Card>
@@ -193,8 +193,8 @@ export default function Home() {
                 <Gift size={150} />
             </div>
             <CardContent className="p-8 md:p-12 relative">
-              <h2 className="font-headline text-3xl md:text-4xl font-bold mb-4">🎁 BÔNUS DE VALOR</h2>
-              <p className="text-xl font-semibold mb-6">Mensagens prontas para WhatsApp</p>
+              <h2 className="font-headline text-3xl md:text-4xl font-bold mb-4"><strong>🎁 BÔNUS DE VALOR</strong></h2>
+              <p className="text-xl font-semibold mb-6"><strong>Mensagens prontas para WhatsApp</strong></p>
               <p>Copie e cole mensagens para:</p>
               <ul className="mt-4 space-y-2 list-disc list-inside">
                 <li>Nova cliente</li>
@@ -203,7 +203,7 @@ export default function Home() {
                 <li>Cliente que tenta negociar</li>
                 <li>Regras de atraso e cancelamento</li>
               </ul>
-              <p className="mt-6 text-lg font-bold bg-black/20 p-3 rounded-md inline-block">👉 Isso sozinho já vale o investimento.</p>
+              <p className="mt-6 text-lg font-bold bg-black/20 p-3 rounded-md inline-block"><strong>👉 Isso sozinho já vale o investimento.</strong></p>
             </CardContent>
           </Card>
         </div>
@@ -218,10 +218,10 @@ export default function Home() {
               <CardContent className="p-8">
                 <h3 className="font-headline text-2xl font-bold mb-4 text-destructive flex items-center gap-2"><XCircle/> Antes</h3>
                 <ul className="space-y-3">
-                  <XListItem>Medo de cobrar</XListItem>
-                  <XListItem>Insegurança para se posicionar</XListItem>
-                  <XListItem>Clientes desvalorizando seu trabalho</XListItem>
-                  <XListItem>Muito trabalho, pouco retorno</XListItem>
+                  <XListItem><strong>Medo</strong> de cobrar</XListItem>
+                  <XListItem><strong>Insegurança</strong> para se posicionar</XListItem>
+                  <XListItem>Clientes <strong>desvalorizando</strong> seu trabalho</XListItem>
+                  <XListItem>Muito trabalho, <strong>pouco retorno</strong></XListItem>
                 </ul>
               </CardContent>
             </Card>
@@ -229,10 +229,10 @@ export default function Home() {
               <CardContent className="p-8">
                 <h3 className="font-headline text-2xl font-bold mb-4 text-primary flex items-center gap-2"><CheckCircle/> Depois</h3>
                 <ul className="space-y-3">
-                  <CheckListItem>Clareza no preço e confiança</CheckListItem>
-                  <CheckListItem>Postura profissional que impõe respeito</CheckListItem>
-                  <CheckListItem>Clientes que respeitam e valorizam</CheckListItem>
-                  <CheckListItem>Mais dinheiro no fim do mês</CheckListItem>
+                  <CheckListItem><strong>Clareza</strong> no preço e confiança</CheckListItem>
+                  <CheckListItem>Postura profissional que <strong>impõe respeito</strong></CheckListItem>
+                  <CheckListItem>Clientes que <strong>respeitam e valorizam</strong></CheckListItem>
+                  <CheckListItem><strong>Mais dinheiro</strong> no fim do mês</CheckListItem>
                 </ul>
               </CardContent>
             </Card>
@@ -267,8 +267,8 @@ export default function Home() {
                 <span className="text-6xl md:text-8xl font-extrabold text-primary">R$27</span>
                 <span className="text-lg text-muted-foreground">,00</span>
               </div>
-              <p className="text-lg">Menos do que o valor de uma esmaltação.</p>
-              <p className="font-bold text-lg">Mas pode mudar completamente quanto você ganha por mês.</p>
+              <p className="text-lg">Menos do que o valor de <em>uma esmaltação</em>.</p>
+              <p className="font-bold text-lg">Mas pode mudar <strong>completamente</strong> quanto você ganha por mês.</p>
               <Button asChild size="lg" className="mt-8 w-full md:w-auto text-lg py-7 px-10 animate-pulse">
                 <Link href="#">
                   Quero ser uma manicure bem paga AGORA
@@ -285,9 +285,9 @@ export default function Home() {
           <Card className="flex flex-col md:flex-row items-center gap-6 p-8 bg-secondary">
             <ShieldCheck className="w-20 h-20 text-primary shrink-0"/>
             <div>
-              <h3 className="font-headline text-2xl font-bold">Sua Compra é 100% Segura</h3>
+              <h3 className="font-headline text-2xl font-bold"><strong>Sua Compra é 100% Segura</strong></h3>
               <p className="mt-2">
-                Você tem 7 dias de garantia incondicional. Se por qualquer motivo você achar que o material não é para você, basta pedir o reembolso. Sem perguntas, sem complicação. O risco é todo meu.
+                <em>Você tem 7 dias de garantia incondicional.</em> Se por qualquer motivo você achar que o material não é para você, basta pedir o reembolso. <strong>Sem perguntas, sem complicação. O risco é todo meu.</strong>
               </p>
             </div>
           </Card>
@@ -299,11 +299,11 @@ export default function Home() {
         <div className="container mx-auto px-4 text-center max-w-4xl">
           <h2 className="font-headline text-3xl md:text-4xl font-bold">A decisão é sua.</h2>
           <p className="mt-6 text-lg md:text-xl">
-            Quanto mais tempo você cobra pouco, mais difícil fica sair desse lugar. Você pode continuar trabalhando muito ou pode começar a trabalhar com valor.
+            Quanto mais tempo você cobra pouco, mais difícil fica sair desse lugar. Você pode continuar trabalhando muito ou pode começar a trabalhar <strong>com valor</strong>.
           </p>
           <Button asChild size="lg" variant="secondary" className="mt-8 group text-lg">
             <Link href="#pricing">
-              Escolho trabalhar com valor <ArrowRight className="ml-2 h-5 w-5 group-hover:translate-x-1 transition-transform" />
+              Escolho trabalhar <strong>com valor</strong> <ArrowRight className="ml-2 h-5 w-5 group-hover:translate-x-1 transition-transform" />
             </Link>
           </Button>
         </div>
