@@ -24,6 +24,7 @@ const XListItem = ({ children }: { children: React.ReactNode }) => (
 
 export default function Home() {
   const guideImage = PlaceHolderImages.find(p => p.id === 'guide-cover');
+  const transformationImage = PlaceHolderImages.find(p => p.id === 'billing-transformation');
 
   return (
     <main className="flex flex-col items-center overflow-hidden">
@@ -213,6 +214,18 @@ export default function Home() {
       <section className="w-full py-16 lg:py-24 bg-secondary">
         <div className="container mx-auto px-4">
           <h2 className="font-headline text-3xl md:text-4xl font-bold text-center mb-12">Sua <strong>transformação</strong></h2>
+          {transformationImage && (
+            <div className="mb-12 flex justify-center">
+              <Image
+                src={transformationImage.imageUrl}
+                alt={transformationImage.description}
+                width={800}
+                height={400}
+                data-ai-hint={transformationImage.imageHint}
+                className="rounded-lg shadow-2xl"
+              />
+            </div>
+          )}
           <div className="grid md:grid-cols-2 gap-8 max-w-5xl mx-auto">
             <Card className="border-destructive/50 border-2">
               <CardContent className="p-8">
