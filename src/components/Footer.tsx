@@ -8,7 +8,7 @@ export function Footer() {
           <Logo />
         </div>
         <p className="mt-4 text-sm">
-          &copy; {new Date().getFullYear()} Manicure Elevation. Todos os direitos reservados.
+          &copy; {new Date().getFullYear()} Nail Designer - Bem Paga. Todos os direitos reservados.
         </p>
         <p className="text-xs mt-2 text-muted-foreground">
           Transformando manicures em empreendedoras de sucesso.

@@ -6,7 +6,7 @@ import { Footer } from '@/components/Footer';
 import { SalesNotification } from '@/components/SalesNotification';
 
 export const metadata: Metadata = {
-  title: 'Manicure Elevation',
+  title: 'Nail Designer - Bem Paga',
   description: 'Descubra como cobrar mais como manicure, mesmo tendo medo de perder clientes, sem brigar por preço e sem depender de indicação.',
 };
 
