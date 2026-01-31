@@ -1,8 +1,8 @@
 import Image from 'next/image';
 import Link from 'next/link';
-import { ArrowRight, CheckCircle, Gift, MessageSquare, ShieldCheck, TrendingUp, Wallet, XCircle, BookOpen, Sparkles } from 'lucide-react';
+import { ArrowRight, CheckCircle, Gift, MessageSquare, ShieldCheck, TrendingUp, Wallet, XCircle, BookOpen, Sparkles, Sheet, ClipboardCopy, ClipboardCheck } from 'lucide-react';
 import { Button } from '@/components/ui/button';
-import { Card, CardContent } from '@/components/ui/card';
+import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
 import { PlaceHolderImages } from '@/lib/placeholder-images';
 import { cn } from '@/lib/utils';
 import { NailPolish } from '@/components/icons';
@@ -208,31 +208,67 @@ export default function Home() {
       </section>
 
       {/* Bonus Section */}
-      <section className="w-full py-16 lg:py-24">
-        <div className="container mx-auto px-4 max-w-4xl">
-          <Card className="bg-accent text-accent-foreground shadow-2xl relative overflow-hidden">
-             <div className="absolute -top-8 -right-8 text-primary/10">
-                <Gift size={150} />
-            </div>
-            <CardContent className="p-8 md:p-12 relative">
-              <h2 className="font-headline text-3xl md:text-4xl font-bold mb-4"><strong>🎁 BÔNUS DE VALOR</strong></h2>
-              <p className="text-xl font-semibold mb-6"><strong>Mensagens prontas para WhatsApp</strong></p>
-              <p><em>Copie e cole</em> mensagens para:</p>
-              <ul className="mt-4 space-y-2 list-disc list-inside">
-                <li>Nova cliente</li>
-                <li>Reajuste de preço</li>
-                <li>Resposta para “tá caro”</li>
-                <li>Cliente que tenta negociar</li>
-                <li>Regras de atraso e cancelamento</li>
-              </ul>
-              <p className="mt-6 text-lg font-bold bg-black/20 p-3 rounded-md inline-block"><strong>👉 Isso sozinho <em>já vale o investimento</em>.</strong></p>
-            </CardContent>
-          </Card>
+      <section className="w-full py-16 lg:py-24 bg-secondary">
+        <div className="container mx-auto px-4 max-w-5xl">
+          <div className="text-center mb-12">
+            <h2 className="font-headline text-3xl md:text-4xl font-bold">🎁 Bônus para Acelerar Seus Resultados</h2>
+            <p className="mt-4 text-lg text-foreground/80 max-w-3xl mx-auto">
+              Além do método completo, você ainda recebe <strong>3 bônus práticos</strong> para aplicar imediatamente — <em>sem custo adicional</em>.
+            </p>
+          </div>
+          <div className="grid md:grid-cols-3 gap-8 text-center">
+            <Card>
+              <CardHeader className="items-center">
+                <div className="bg-primary/10 p-3 rounded-full">
+                  <Sheet className="w-7 h-7 text-primary" />
+                </div>
+                <CardTitle className="pt-2">BÔNUS 01</CardTitle>
+              </CardHeader>
+              <CardContent>
+                <h3 className="font-bold text-lg">💰 Planilha de Precificação</h3>
+                <p className="text-sm text-muted-foreground mt-2">
+                  Calcule o preço ideal dos seus atendimentos, considerando tempo, custo e lucro — <strong>sem chute e sem medo de cobrar</strong>.
+                </p>
+              </CardContent>
+            </Card>
+            <Card>
+              <CardHeader className="items-center">
+                <div className="bg-primary/10 p-3 rounded-full">
+                  <ClipboardCopy className="w-7 h-7 text-primary" />
+                </div>
+                <CardTitle className="pt-2">BÔNUS 02</CardTitle>
+              </CardHeader>
+              <CardContent>
+                <h3 className="font-bold text-lg">💬 Scripts Prontos de Atendimento</h3>
+                <p className="text-sm text-muted-foreground mt-2">
+                  Mensagens prontas para WhatsApp para confirmação de horário, reajuste de preço e organização da agenda.
+                </p>
+              </CardContent>
+            </Card>
+            <Card>
+              <CardHeader className="items-center">
+                <div className="bg-primary/10 p-3 rounded-full">
+                  <ClipboardCheck className="w-7 h-7 text-primary" />
+                </div>
+                <CardTitle className="pt-2">BÔNUS 03</CardTitle>
+              </CardHeader>
+              <CardContent>
+                <h3 className="font-bold text-lg">✨ Checklist do Espaço Profissional</h3>
+                <p className="text-sm text-muted-foreground mt-2">
+                  Ajustes fáceis no ambiente e na postura que <strong>aumentam o valor percebido</strong> do seu atendimento, mesmo em casa.
+                </p>
+              </CardContent>
+            </Card>
+          </div>
+           <div className="mt-12 text-center bg-card/50 p-6 rounded-lg max-w-sm mx-auto shadow">
+              <p className="text-lg text-muted-foreground">Valor total dos bônus: <span className="line-through">R$197</span></p>
+              <p className="text-2xl font-bold text-primary">Hoje: GRÁTIS</p>
+          </div>
         </div>
       </section>
 
       {/* Before & After */}
-      <section className="w-full py-16 lg:py-24 bg-secondary">
+      <section className="w-full py-16 lg:py-24 bg-background">
         <div className="container mx-auto px-4">
           <h2 className="font-headline text-3xl md:text-4xl font-bold text-center mb-12">Sua <strong>transformação</strong></h2>
           <div className="grid md:grid-cols-2 gap-8 max-w-5xl mx-auto">
@@ -263,7 +299,7 @@ export default function Home() {
       </section>
 
       {/* For Whom It's Not */}
-       <section className="w-full py-16 lg:py-24 bg-background">
+       <section className="w-full py-16 lg:py-24 bg-secondary">
         <div className="container mx-auto px-4 max-w-2xl text-center">
           <h2 className="font-headline text-3xl md:text-4xl font-bold">Para quem <strong>NÃO</strong> é este material</h2>
            <Card className="mt-8 text-left">
