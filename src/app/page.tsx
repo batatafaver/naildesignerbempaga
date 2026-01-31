@@ -40,7 +40,7 @@ export default function Home() {
           </p>
           <Button asChild size="lg" className="mt-8 group animate-pulse">
             <Link href="#pricing">
-              MANICURE BEM PAGA <ArrowRight className="ml-2 h-5 w-5 group-hover:translate-x-1 transition-transform" />
+              NAIL DESIGNER BEM PAGA <ArrowRight className="ml-2 h-5 w-5 group-hover:translate-x-1 transition-transform" />
             </Link>
           </Button>
         </div>
@@ -100,14 +100,14 @@ export default function Home() {
             )}
           </div>
           <div>
-            <h2 className="font-headline text-4xl md:text-5xl font-extrabold text-primary"><strong>Manicure Bem Paga</strong></h2>
+            <h2 className="font-headline text-4xl md:text-5xl font-extrabold text-primary"><strong>Nail Designer Bem Paga</strong></h2>
             <p className="mt-4 text-lg md:text-xl">
               Um guia prático que te mostra como se posicionar, <strong>cobrar melhor</strong> e <strong>ser respeitada</strong>, <em>sem precisar virar influencer</em> e <em>sem depender de sorte</em>.
             </p>
             <p className="mt-4 text-lg font-semibold"><strong>Nada técnico. Nada complicado.</strong> <em>Só o que funciona na vida real.</em></p>
              <Button asChild size="lg" className="mt-8 group">
               <Link href="#pricing">
-                MANICURE BEM PAGA <ArrowRight className="ml-2 h-5 w-5 group-hover:translate-x-1 transition-transform" />
+                NAIL DESIGNER BEM PAGA <ArrowRight className="ml-2 h-5 w-5 group-hover:translate-x-1 transition-transform" />
               </Link>
             </Button>
           </div>
@@ -117,7 +117,7 @@ export default function Home() {
       {/* What You'll Learn */}
       <section className="w-full py-16 lg:py-24 bg-secondary">
         <div className="container mx-auto px-4 max-w-4xl">
-          <h2 className="font-headline text-3xl md:text-4xl font-bold text-center mb-12">Com o Manicure Bem Paga, você vai <strong>aprender</strong>:</h2>
+          <h2 className="font-headline text-3xl md:text-4xl font-bold text-center mb-12">Com o Nail Designer Bem Paga, você vai <strong>aprender</strong>:</h2>
           <div className="grid sm:grid-cols-2 gap-8">
             <div className="flex items-start gap-4">
               <div className="bg-primary/10 p-3 rounded-lg"><Wallet className="w-6 h-6 text-primary" /></div>
@@ -284,7 +284,7 @@ export default function Home() {
               <p className="font-bold text-lg">Mas pode mudar <strong>completamente</strong> quanto você ganha por mês.</p>
               <Button asChild size="lg" className="mt-8 w-full md:w-auto text-lg py-7 px-10 animate-pulse">
                 <Link href="#">
-                  MANICURE BEM PAGA
+                  NAIL DESIGNER BEM PAGA
                 </Link>
               </Button>
             </CardContent>
@@ -316,7 +316,7 @@ export default function Home() {
           </p>
           <Button asChild size="lg" variant="secondary" className="mt-8 group text-lg">
             <Link href="#pricing">
-              MANICURE BEM PAGA <ArrowRight className="ml-2 h-5 w-5 group-hover:translate-x-1 transition-transform" />
+              NAIL DESIGNER BEM PAGA <ArrowRight className="ml-2 h-5 w-5 group-hover:translate-x-1 transition-transform" />
             </Link>
           </Button>
         </div>
