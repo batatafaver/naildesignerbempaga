@@ -262,10 +262,10 @@ export default function Home() {
         <div className="container mx-auto px-4 max-w-3xl">
           <Card className="text-center shadow-2xl border-primary border-2 bg-gradient-to-br from-secondary/50 to-background">
             <CardContent className="p-8 md:p-12">
-              <h2 className="font-headline text-3xl md:text-4xl font-bold">Tenha acesso a <em>tudo isso</em> por apenas:</h2>
-              <div className="my-6">
-                <span className="text-6xl md:text-8xl font-extrabold text-primary">R$27</span>
-                <span className="text-lg text-muted-foreground">,00</span>
+              <h2 className="font-headline text-3xl md:text-4xl font-bold">De <span className="font-normal text-muted-foreground line-through">R$67</span> por apenas:</h2>
+              <div className="my-4">
+                <span className="text-7xl md:text-9xl font-extrabold text-primary">R$27</span>
+                <span className="text-xl font-bold text-muted-foreground">,00</span>
               </div>
               <p className="text-lg">Menos do que o valor de <em>uma esmaltação</em>.</p>
               <p className="font-bold text-lg">Mas pode mudar <strong>completamente</strong> quanto você ganha por mês.</p>
