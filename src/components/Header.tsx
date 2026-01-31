@@ -8,7 +8,7 @@ export function Header() {
       <div className="container mx-auto flex items-center justify-between">
         <Logo />
         <Button asChild size="sm">
-          <Link href="#pricing">Quero ser bem paga</Link>
+          <Link href="#pricing">MANICURE BEM PAGA</Link>
         </Button>
       </div>
     </header>
