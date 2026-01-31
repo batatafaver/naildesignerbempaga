@@ -17,6 +17,12 @@
       "description": "Gráfico de barras mostrando um aumento significativo no faturamento, representando o antes e depois do produto.",
       "imageUrl": "https://images.unsplash.com/photo-1640622300473-97743583c92b?auto=format&fit=crop&w=800&h=400&q=80",
       "imageHint": "growth chart"
+    },
+    {
+      "id": "kelly-martins",
+      "description": "Foto da criadora do método, Kelly Martins",
+      "imageUrl": "https://i.postimg.cc/T1Kn6V5N/image.png",
+      "imageHint": "woman portrait"
     }
   ]
 }
