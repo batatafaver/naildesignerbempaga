@@ -7,7 +7,7 @@ import { SalesNotification } from '@/components/SalesNotification';
 
 export const metadata: Metadata = {
   title: 'Nail Designer - Bem Paga',
-  description: 'Descubra como cobrar mais como manicure, mesmo tendo medo de perder clientes, sem brigar por preço e sem depender de indicação.',
+  description: 'Descubra como cobrar mais como Nail Designer, mesmo tendo medo de perder clientes, sem brigar por preço e sem depender de indicação.',
 };
 
 export default function RootLayout({

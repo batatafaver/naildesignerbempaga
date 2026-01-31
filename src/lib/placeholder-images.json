@@ -2,9 +2,9 @@
   "placeholderImages": [
     {
       "id": "hero-manicure",
-      "description": "A close-up of a manicurist applying polish.",
+      "description": "A close-up of a Nail Designer applying polish.",
       "imageUrl": "https://images.unsplash.com/photo-1655477079276-ecc3ed99b6da?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw4fHxtYW5pY3VyZSUyMG5haWxzfGVufDB8fHx8MTc2OTg4NjcxMXww&ixlib=rb-4.1.0&q=80&w=1080",
-      "imageHint": "manicure nails"
+      "imageHint": "Nail Designer nails"
     },
     {
       "id": "guide-cover",

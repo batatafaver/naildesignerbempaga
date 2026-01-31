@@ -33,10 +33,10 @@ export default function Home() {
       <section className="w-full bg-gradient-to-br from-background to-secondary py-20 sm:py-28">
         <div className="container mx-auto px-4 text-center">
           <h1 className="font-headline text-4xl md:text-6xl font-extrabold text-primary-foreground bg-clip-text text-transparent bg-gradient-to-r from-primary via-accent to-primary">
-            Trabalhe como manicure e <em>pare de ganhar pouco</em> pelo esforço que você faz
+            Trabalhe como Nail Designer e <em>pare de ganhar pouco</em> pelo esforço que você faz
           </h1>
           <p className="mt-6 max-w-3xl mx-auto text-lg md:text-xl text-foreground/80 font-headline">
-            Descubra como cobrar mais como manicure, <em>mesmo tendo medo de perder clientes</em>, <strong>sem brigar por preço</strong> e <strong>sem depender de indicação</strong>.
+            Descubra como cobrar mais como Nail Designer, <em>mesmo tendo medo de perder clientes</em>, <strong>sem brigar por preço</strong> e <strong>sem depender de indicação</strong>.
           </p>
           <Button asChild size="lg" className="mt-8 group animate-pulse">
             <Link href="#pricing">
@@ -51,7 +51,7 @@ export default function Home() {
         <div className="container mx-auto px-4 max-w-4xl">
           <Card className="shadow-2xl">
             <CardContent className="p-8 md:p-12">
-              <h2 className="font-headline text-2xl md:text-3xl font-bold text-center mb-8">Se você é manicure e sente que:</h2>
+              <h2 className="font-headline text-2xl md:text-3xl font-bold text-center mb-8">Se você é Nail Designer e sente que:</h2>
               <ul className="space-y-4 text-lg text-foreground/90">
                 <CheckListItem>Trabalha <em>muito</em> e o dinheiro <strong>nunca sobra</strong></CheckListItem>
                 <CheckListItem>Cobra <strong>menos do que deveria</strong></CheckListItem>
@@ -70,7 +70,7 @@ export default function Home() {
         <div className="container mx-auto px-4 text-center max-w-3xl">
           <h2 className="font-headline text-3xl md:text-4xl font-bold">O <strong>Problema Real</strong> (sem romantizar)</h2>
           <p className="mt-6 text-lg md:text-xl">
-            A maioria das manicures não ganha pouco porque trabalha mal. <em>Ganha pouco porque:</em>
+            A maioria das Nail Designers não ganha pouco porque trabalha mal. <em>Ganha pouco porque:</em>
           </p>
           <div className="mt-8 space-y-4 text-left mx-auto max-w-md">
             <p className="flex items-center gap-3"><XCircle className="text-destructive w-6 h-6 shrink-0"/> Não sabe se <strong>posicionar</strong></p>
@@ -260,7 +260,7 @@ export default function Home() {
            <Card className="mt-8 text-left">
             <CardContent className="p-8">
                 <ul className="space-y-3 text-lg">
-                  <XListItem>Você não atende como manicure</XListItem>
+                  <XListItem>Você não atende como Nail Designer</XListItem>
                   <XListItem>Você acha que <em>preço baixo</em> é a <strong>única</strong> estratégia</XListItem>
                   <XListItem>Você <strong>não quer</strong> mudar sua postura profissional</XListItem>
                   <XListItem>Você espera um <strong>milagre</strong> sem aplicar o conteúdo</XListItem>

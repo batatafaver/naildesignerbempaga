@@ -11,7 +11,7 @@ export function Footer() {
           &copy; {new Date().getFullYear()} Nail Designer - Bem Paga. Todos os direitos reservados.
         </p>
         <p className="text-xs mt-2 text-muted-foreground">
-          Transformando manicures em empreendedoras de sucesso.
+          Transformando Nail Designers em empreendedoras de sucesso.
         </p>
       </div>
     </footer>
