@@ -53,7 +53,7 @@ export default function Home() {
                             alt={kellyImage.description}
                             width={400}
                             height={400}
-                            className="rounded-full aspect-square object-cover object-top shadow-2xl mx-auto"
+                            className="rounded-full aspect-square object-cover shadow-2xl mx-auto"
                             priority
                             data-ai-hint={kellyImage.imageHint}
                         />
