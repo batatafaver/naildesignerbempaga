@@ -1,39 +1,8 @@
 'use client';
 
-import { useState, useEffect } from 'react';
 import Script from 'next/script';
 
 export function Pixel() {
-  const [loaded, setLoaded] = useState(false);
-
-  useEffect(() => {
-    const handleInteraction = () => {
-      setLoaded(true);
-      window.removeEventListener('scroll', handleInteraction);
-      window.removeEventListener('mousemove', handleInteraction);
-      window.removeEventListener('touchstart', handleInteraction);
-    };
-
-    const timer = setTimeout(() => {
-      handleInteraction();
-    }, 4000);
-
-    window.addEventListener('scroll', handleInteraction, { passive: true, once: true });
-    window.addEventListener('mousemove', handleInteraction, { passive: true, once: true });
-    window.addEventListener('touchstart', handleInteraction, { passive: true, once: true });
-
-    return () => {
-      clearTimeout(timer);
-      window.removeEventListener('scroll', handleInteraction);
-      window.removeEventListener('mousemove', handleInteraction);
-      window.removeEventListener('touchstart', handleInteraction);
-    };
-  }, []);
-
-  if (!loaded) {
-    return null;
-  }
-
   return (
     <>
       <Script id="fb-pixel-script" strategy="afterInteractive">
