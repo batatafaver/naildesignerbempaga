@@ -4,6 +4,14 @@ import { Toaster } from '@/components/ui/toaster';
 import { Header } from '@/components/Header';
 import { Footer } from '@/components/Footer';
 import { SalesNotification } from '@/components/SalesNotification';
+import { Poppins } from 'next/font/google';
+
+const poppins = Poppins({
+  subsets: ['latin'],
+  weight: ['400', '600', '700', '800'],
+  variable: '--font-poppins',
+  display: 'swap',
+});
 
 export const metadata: Metadata = {
   title: 'Nail Designer - Bem Paga',
@@ -16,12 +24,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="pt-BR" className="scroll-smooth">
-      <head>
-        <link rel="preconnect" href="https://fonts.googleapis.com" />
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
-        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700;800&display=swap" rel="stylesheet" />
-      </head>
+    <html lang="pt-BR" className={`scroll-smooth ${poppins.variable}`}>
       <body className="font-body antialiased">
         <Header />
         {children}
