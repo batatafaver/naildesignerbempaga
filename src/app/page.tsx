@@ -40,7 +40,7 @@ export default function Home() {
                     Descubra como cobrar mais como Nail Designer, <em>mesmo tendo medo de perder clientes</em>, <strong>sem brigar por preço</strong> e <strong>sem depender de indicação</strong>.
                 </p>
                 <Button asChild size="lg" className="mt-8 group animate-pulse">
-                    <Link href="#pricing">
+                    <Link href="https://pay.kiwify.com.br/TdOc13P">
                         NAIL DESIGNER BEM PAGA <ArrowRight className="ml-2 h-5 w-5 group-hover:translate-x-1 transition-transform" />
                     </Link>
                 </Button>
@@ -53,7 +53,7 @@ export default function Home() {
                             alt={kellyImage.description}
                             width={400}
                             height={400}
-                            className="rounded-full aspect-square object-cover shadow-2xl mx-auto"
+                            className="rounded-full aspect-square object-cover object-top shadow-2xl mx-auto"
                             priority
                             data-ai-hint={kellyImage.imageHint}
                         />
@@ -127,7 +127,7 @@ export default function Home() {
             </p>
             <p className="mt-4 text-lg font-semibold"><strong>Nada técnico. Nada complicado.</strong> <em>Só o que funciona na vida real.</em></p>
              <Button asChild size="lg" className="mt-8 group">
-              <Link href="#pricing">
+              <Link href="https://pay.kiwify.com.br/TdOc13P">
                 NAIL DESIGNER BEM PAGA <ArrowRight className="ml-2 h-5 w-5 group-hover:translate-x-1 transition-transform" />
               </Link>
             </Button>
@@ -328,7 +328,7 @@ export default function Home() {
               <p className="text-lg">Menos do que o valor de <em>uma esmaltação</em>.</p>
               <p className="font-bold text-lg">Mas pode mudar <strong>completamente</strong> quanto você ganha por mês.</p>
               <Button asChild size="lg" className="mt-8 w-full md:w-auto text-lg py-7 px-10 animate-pulse">
-                <Link href="#">
+                <Link href="https://pay.kiwify.com.br/TdOc13P">
                   NAIL DESIGNER BEM PAGA
                 </Link>
               </Button>
@@ -360,7 +360,7 @@ export default function Home() {
             Quanto mais tempo você cobra pouco, <em>mais difícil</em> fica sair desse lugar. Você pode continuar trabalhando muito ou pode começar a trabalhar <strong>com valor</strong>.
           </p>
           <Button asChild size="lg" variant="secondary" className="mt-8 group text-lg">
-            <Link href="#pricing">
+            <Link href="https://pay.kiwify.com.br/TdOc13P">
               NAIL DESIGNER BEM PAGA <ArrowRight className="ml-2 h-5 w-5 group-hover:translate-x-1 transition-transform" />
             </Link>
           </Button>
