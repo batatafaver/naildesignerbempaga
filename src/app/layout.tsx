@@ -4,7 +4,6 @@ import './globals.css';
 import { Toaster } from '@/components/ui/toaster';
 import { Header } from '@/components/Header';
 import { Footer } from '@/components/Footer';
-import { SalesNotification } from '@/components/SalesNotification';
 import { Poppins } from 'next/font/google';
 
 const poppins = Poppins({
@@ -31,7 +30,6 @@ export default function RootLayout({
         {children}
         <Footer />
         <Toaster />
-        <SalesNotification />
         <Script id="fb-pixel" strategy="afterInteractive">
           {`
             !function(f,b,e,v,n,t,s)
