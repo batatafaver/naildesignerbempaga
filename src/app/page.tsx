@@ -53,7 +53,7 @@ export default function Home() {
                             alt={kellyImage.description}
                             width={400}
                             height={400}
-                            className="rounded-full aspect-square object-cover object-top shadow-2xl mx-auto"
+                            className="rounded-full aspect-square object-cover object-center shadow-2xl mx-auto"
                             priority
                             data-ai-hint={kellyImage.imageHint}
                         />
@@ -204,66 +204,6 @@ export default function Home() {
               </div>
             </CardContent>
           </Card>
-        </div>
-      </section>
-
-      {/* Bonus Section */}
-      <section className="w-full py-16 lg:py-24 bg-secondary">
-        <div className="container mx-auto px-4 max-w-5xl">
-          <div className="text-center mb-12">
-            <h2 className="font-headline text-3xl md:text-4xl font-bold">🎁 Bônus para Acelerar Seus Resultados</h2>
-            <p className="mt-4 text-lg text-foreground/80 max-w-3xl mx-auto">
-              Além do método completo, você ainda recebe <strong>3 bônus práticos</strong> para aplicar imediatamente — <em>sem custo adicional</em>.
-            </p>
-          </div>
-          <div className="grid md:grid-cols-3 gap-8 text-center">
-            <Card>
-              <CardHeader className="items-center">
-                <div className="bg-primary/10 p-3 rounded-full">
-                  <Sheet className="w-7 h-7 text-primary" />
-                </div>
-                <CardTitle className="pt-2">BÔNUS 01</CardTitle>
-              </CardHeader>
-              <CardContent>
-                <h3 className="font-bold text-lg">💰 Planilha de Precificação</h3>
-                <p className="text-sm text-muted-foreground mt-2">
-                  Calcule o preço ideal dos seus atendimentos, considerando tempo, custo e lucro — <strong>sem chute e sem medo de cobrar</strong>.
-                </p>
-              </CardContent>
-            </Card>
-            <Card>
-              <CardHeader className="items-center">
-                <div className="bg-primary/10 p-3 rounded-full">
-                  <ClipboardCopy className="w-7 h-7 text-primary" />
-                </div>
-                <CardTitle className="pt-2">BÔNUS 02</CardTitle>
-              </CardHeader>
-              <CardContent>
-                <h3 className="font-bold text-lg">💬 Scripts Prontos de Atendimento</h3>
-                <p className="text-sm text-muted-foreground mt-2">
-                  Mensagens prontas para WhatsApp para confirmação de horário, reajuste de preço e organização da agenda.
-                </p>
-              </CardContent>
-            </Card>
-            <Card>
-              <CardHeader className="items-center">
-                <div className="bg-primary/10 p-3 rounded-full">
-                  <ClipboardCheck className="w-7 h-7 text-primary" />
-                </div>
-                <CardTitle className="pt-2">BÔNUS 03</CardTitle>
-              </CardHeader>
-              <CardContent>
-                <h3 className="font-bold text-lg">✨ Checklist do Espaço Profissional</h3>
-                <p className="text-sm text-muted-foreground mt-2">
-                  Ajustes fáceis no ambiente e na postura que <strong>aumentam o valor percebido</strong> do seu atendimento, mesmo em casa.
-                </p>
-              </CardContent>
-            </Card>
-          </div>
-           <div className="mt-12 text-center bg-card/50 p-6 rounded-lg max-w-sm mx-auto shadow">
-              <p className="text-lg text-muted-foreground">Valor total dos bônus: <span className="line-through">R$197</span></p>
-              <p className="text-2xl font-bold text-primary">Hoje: GRÁTIS</p>
-          </div>
         </div>
       </section>
 
