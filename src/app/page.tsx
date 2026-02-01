@@ -23,7 +23,7 @@ const XListItem = ({ children }: { children: React.ReactNode }) => (
 
 
 export default function Home() {
-  const transformationImage = PlaceHolderImages.find(p => p.id === 'kelly-transformation');
+  const guideCoverImage = PlaceHolderImages.find(p => p.id === 'guide-cover');
   const kellyImage = PlaceHolderImages.find(p => p.id === 'kelly-martins');
 
   return (
@@ -131,13 +131,13 @@ export default function Home() {
             </Button>
           </div>
           <div className="text-center md:text-left">
-            {transformationImage && (
+            {guideCoverImage && (
               <Image
-                src={transformationImage.imageUrl}
-                alt={transformationImage.description}
+                src={guideCoverImage.imageUrl}
+                alt={guideCoverImage.description}
                 width={400}
                 height={500}
-                data-ai-hint={transformationImage.imageHint}
+                data-ai-hint={guideCoverImage.imageHint}
                 className="rounded-lg shadow-2xl mx-auto"
               />
             )}
