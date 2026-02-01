@@ -30,22 +30,9 @@ export default function Home() {
     <main className="flex flex-col items-center overflow-hidden">
       
       {/* Hero Section */}
-      <section className="w-full bg-gradient-to-br from-background to-secondary py-20 sm:py-28">
+      <section className="w-full bg-gradient-to-br from-background to-secondary py-12 sm:py-20">
         <div className="container mx-auto px-4 grid md:grid-cols-2 gap-12 items-center">
-            <div className="text-center md:text-left">
-                <h1 className="font-headline text-4xl md:text-6xl font-extrabold text-primary-foreground bg-clip-text text-transparent bg-gradient-to-r from-primary via-accent to-primary">
-                    Trabalhe como Nail Designer e <em>pare de ganhar pouco</em> pelo esforço que você faz
-                </h1>
-                <p className="mt-6 max-w-xl mx-auto md:mx-0 text-lg md:text-xl text-foreground/80 font-headline">
-                    Descubra como cobrar mais como Nail Designer, <em>mesmo tendo medo de perder clientes</em>, <strong>sem brigar por preço</strong> e <strong>sem depender de indicação</strong>.
-                </p>
-                <Button asChild size="lg" className="mt-8 group animate-pulse">
-                    <Link href="https://pay.kiwify.com.br/TdOc13P">
-                        NAIL DESIGNER BEM PAGA <ArrowRight className="ml-2 h-5 w-5 group-hover:translate-x-1 transition-transform" />
-                    </Link>
-                </Button>
-            </div>
-            <div className="relative order-first md:order-last flex justify-center">
+            <div className="relative md:order-last flex justify-center">
                 {kellyImage && (
                     <div className="relative">
                         <Image
@@ -53,16 +40,29 @@ export default function Home() {
                             alt={kellyImage.description}
                             width={400}
                             height={400}
-                            className="rounded-full aspect-square object-cover object-center shadow-2xl mx-auto"
+                            className="w-72 h-72 md:w-96 md:h-96 rounded-full aspect-square object-cover object-center shadow-2xl mx-auto"
                             priority
                             data-ai-hint={kellyImage.imageHint}
                         />
-                         <div className="absolute bottom-4 right-0 left-0 mx-auto w-fit bg-card/80 backdrop-blur-sm p-3 rounded-lg shadow-lg text-center">
+                         <div className="absolute bottom-0 right-0 left-0 mx-auto w-fit bg-card/80 backdrop-blur-sm p-3 rounded-lg shadow-lg text-center">
                             <p className="font-bold text-card-foreground">Kelly Martins</p>
                             <p className="text-sm text-muted-foreground">Criadora do Método</p>
                         </div>
                     </div>
                 )}
+            </div>
+            <div className="text-center md:text-left">
+                <h1 className="font-headline text-4xl md:text-5xl font-extrabold text-primary-foreground bg-clip-text text-transparent bg-gradient-to-r from-primary via-accent to-primary">
+                    Trabalhe como Nail Designer e <em>pare de ganhar pouco</em> pelo esforço que você faz
+                </h1>
+                <p className="mt-4 md:mt-6 max-w-xl mx-auto md:mx-0 text-lg md:text-xl text-foreground/80 font-headline">
+                    Descubra como cobrar mais como Nail Designer, <em>mesmo tendo medo de perder clientes</em>, <strong>sem brigar por preço</strong> e <strong>sem depender de indicação</strong>.
+                </p>
+                <Button asChild size="lg" className="mt-6 md:mt-8 group animate-pulse">
+                    <Link href="https://pay.kiwify.com.br/TdOc13P">
+                        NAIL DESIGNER BEM PAGA <ArrowRight className="ml-2 h-5 w-5 group-hover:translate-x-1 transition-transform" />
+                    </Link>
+                </Button>
             </div>
         </div>
       </section>
