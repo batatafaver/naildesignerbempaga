@@ -23,6 +23,12 @@
       "description": "Foto da criadora do método, Kelly Martins",
       "imageUrl": "https://i.postimg.cc/CxpwTbR2/image-(4).png",
       "imageHint": "woman portrait"
+    },
+    {
+      "id": "kelly-transformation",
+      "description": "Uma mulher feliz com sua família, representando mais tempo e qualidade de vida.",
+      "imageUrl": "https://images.unsplash.com/photo-1581952976147-5a2d15560349?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw3fHxoYXBweSUyMGZhbWlseXxlbnwwfHx8fDE3Njk4ODM3NDl8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "happy family"
     }
   ]
 }

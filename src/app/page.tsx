@@ -1,6 +1,6 @@
 import Image from 'next/image';
 import Link from 'next/link';
-import { ArrowRight, CheckCircle, Gift, MessageSquare, ShieldCheck, TrendingUp, Wallet, XCircle, BookOpen, Sparkles, Sheet, ClipboardCopy, ClipboardCheck } from 'lucide-react';
+import { ArrowRight, CheckCircle, Gift, MessageSquare, ShieldCheck, TrendingUp, Wallet, XCircle, BookOpen, Sparkles, Sheet, ClipboardCopy, ClipboardCheck, Clock, Heart, DollarSign } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
 import { PlaceHolderImages } from '@/lib/placeholder-images';
@@ -23,7 +23,7 @@ const XListItem = ({ children }: { children: React.ReactNode }) => (
 
 
 export default function Home() {
-  const guideImage = PlaceHolderImages.find(p => p.id === 'guide-cover');
+  const transformationImage = PlaceHolderImages.find(p => p.id === 'kelly-transformation');
   const kellyImage = PlaceHolderImages.find(p => p.id === 'kelly-martins');
 
   return (
@@ -110,29 +110,37 @@ export default function Home() {
       {/* The Solution */}
       <section className="w-full py-16 lg:py-24 bg-background">
         <div className="container mx-auto px-4 grid md:grid-cols-2 gap-12 items-center">
+          <div className="order-last md:order-first">
+            <h2 className="font-headline text-4xl md:text-5xl font-extrabold text-primary">A transformação da Kelly</h2>
+            <p className="mt-4 text-lg md:text-xl">
+              Antes do método, Kelly vivia com a agenda lotada e a conta vazia. O cansaço era constante e o tempo com a família, quase nulo.
+            </p>
+            <p className="mt-4 text-lg md:text-xl">
+              Depois de aplicar as mesmas técnicas que estão neste guia, ela conquistou:
+            </p>
+            <ul className="mt-6 space-y-4 text-lg">
+                <li className="flex items-center gap-3"><Clock className="w-6 h-6 text-primary"/> Mais <strong>tempo com a família</strong></li>
+                <li className="flex items-center gap-3"><Heart className="w-6 h-6 text-primary"/> Mais <strong>qualidade de vida</strong></li>
+                <li className="flex items-center gap-3"><DollarSign className="w-6 h-6 text-primary"/> <strong>Faturamento mais alto</strong>, trabalhando menos</li>
+            </ul>
+            <p className="mt-6 text-lg font-semibold">Essa transformação também pode ser a sua.</p>
+            <Button asChild size="lg" className="mt-8 group">
+              <Link href="#pricing">
+                EU QUERO ESSA TRANSFORMAÇÃO <ArrowRight className="ml-2 h-5 w-5 group-hover:translate-x-1 transition-transform" />
+              </Link>
+            </Button>
+          </div>
           <div className="text-center md:text-left">
-            {guideImage && (
+            {transformationImage && (
               <Image
-                src={guideImage.imageUrl}
-                alt={guideImage.description}
+                src={transformationImage.imageUrl}
+                alt={transformationImage.description}
                 width={400}
                 height={500}
-                data-ai-hint={guideImage.imageHint}
+                data-ai-hint={transformationImage.imageHint}
                 className="rounded-lg shadow-2xl mx-auto"
               />
             )}
-          </div>
-          <div>
-            <h2 className="font-headline text-4xl md:text-5xl font-extrabold text-primary"><strong>Nail Designer Bem Paga</strong></h2>
-            <p className="mt-4 text-lg md:text-xl">
-              Um guia prático que te mostra como se posicionar, <strong>cobrar melhor</strong> e <strong>ser respeitada</strong>, <em>sem precisar virar influencer</em> e <em>sem depender de sorte</em>.
-            </p>
-            <p className="mt-4 text-lg font-semibold"><strong>Nada técnico. Nada complicado.</strong> <em>Só o que funciona na vida real.</em></p>
-             <Button asChild size="lg" className="mt-8 group">
-              <Link href="#pricing">
-                NAIL DESIGNER BEM PAGA <ArrowRight className="ml-2 h-5 w-5 group-hover:translate-x-1 transition-transform" />
-              </Link>
-            </Button>
           </div>
         </div>
       </section>
