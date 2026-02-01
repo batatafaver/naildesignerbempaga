@@ -8,7 +8,7 @@ export function Header() {
       <div className="container mx-auto flex items-center justify-between">
         <Logo />
         <Button asChild size="sm">
-          <Link href="https://pay.kiwify.com.br/TdOc13P">NAIL DESIGNER BEM PAGA</Link>
+          <Link href="#pricing">NAIL DESIGNER BEM PAGA</Link>
         </Button>
       </div>
     </header>
