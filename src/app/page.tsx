@@ -88,166 +88,6 @@ export default function Home() {
         </div>
       </section>
 
-      {/* The Real Problem */}
-      <section className="w-full py-16 lg:py-24 bg-secondary">
-        <div className="container mx-auto px-4 text-center max-w-3xl">
-          <h2 className="font-headline text-3xl md:text-4xl font-bold">O <strong>Problema Real</strong> (sem romantizar)</h2>
-          <p className="mt-6 text-lg md:text-xl">
-            A maioria das Nail Designers não ganha pouco porque trabalha mal. <em>Ganha pouco porque:</em>
-          </p>
-          <div className="mt-8 space-y-4 text-left mx-auto max-w-md">
-            <p className="flex items-center gap-3"><XCircle className="text-destructive w-6 h-6 shrink-0"/> Não sabe se <strong>posicionar</strong></p>
-            <p className="flex items-center gap-3"><XCircle className="text-destructive w-6 h-6 shrink-0"/> Não tem <strong>regras claras</strong></p>
-            <p className="flex items-center gap-3"><XCircle className="text-destructive w-6 h-6 shrink-0"/> Não sabe como <strong>falar de preço</strong></p>
-            <p className="flex items-center gap-3"><XCircle className="text-destructive w-6 h-6 shrink-0"/> Aceita tudo por <strong>medo</strong> de ficar sem cliente</p>
-          </div>
-          <div className="mt-8 bg-card p-6 rounded-lg shadow-md inline-block">
-            <p className="text-xl font-bold"><strong>Resultado? 👉 Agenda cheia, corpo cansado, bolso vazio.</strong></p>
-          </div>
-        </div>
-      </section>
-
-      {/* The Solution */}
-      <section className="w-full py-16 lg:py-24 bg-background">
-        <div className="container mx-auto px-4 grid md:grid-cols-2 gap-12 items-center">
-          <div className="order-last md:order-first">
-            <h2 className="font-headline text-4xl md:text-5xl font-extrabold text-primary">A transformação da Kelly</h2>
-            <p className="mt-4 text-lg md:text-xl">
-              Antes do método, Kelly vivia com a agenda lotada e a conta vazia. O cansaço era constante e o tempo com a família, quase nulo.
-            </p>
-            <p className="mt-4 text-lg md:text-xl">
-              Depois de aplicar as mesmas técnicas que estão neste guia, ela conquistou:
-            </p>
-            <ul className="mt-6 space-y-4 text-lg">
-                <li className="flex items-center gap-3"><Clock className="w-6 h-6 text-primary"/> Mais <strong>tempo com a família</strong></li>
-                <li className="flex items-center gap-3"><Heart className="w-6 h-6 text-primary"/> Mais <strong>qualidade de vida</strong></li>
-                <li className="flex items-center gap-3"><DollarSign className="w-6 h-6 text-primary"/> <strong>Faturamento mais alto</strong>, trabalhando menos</li>
-            </ul>
-            <p className="mt-6 text-lg font-semibold">Essa transformação também pode ser a sua.</p>
-            <Button asChild size="lg" className="mt-8 group">
-              <Link href="#pricing">
-                EU QUERO ESSA TRANSFORMAÇÃO <ArrowRight className="ml-2 h-5 w-5 group-hover:translate-x-1 transition-transform" />
-              </Link>
-            </Button>
-          </div>
-          <div className="text-center md:text-left">
-            {guideCoverImage && (
-              <Image
-                src={guideCoverImage.imageUrl}
-                alt={guideCoverImage.description}
-                width={400}
-                height={500}
-                data-ai-hint={guideCoverImage.imageHint}
-                className="rounded-lg shadow-2xl mx-auto"
-              />
-            )}
-          </div>
-        </div>
-      </section>
-
-      {/* What You'll Learn */}
-      <section className="w-full py-16 lg:py-24 bg-secondary">
-        <div className="container mx-auto px-4 max-w-4xl">
-          <h2 className="font-headline text-3xl md:text-4xl font-bold text-center mb-12">Com o Nail Designer Bem Paga, você vai <strong>aprender</strong>:</h2>
-          <div className="grid sm:grid-cols-2 gap-8">
-            <div className="flex items-start gap-4">
-              <div className="bg-primary/10 p-3 rounded-lg"><Wallet className="w-6 h-6 text-primary" /></div>
-              <div>
-                <h3 className="font-bold text-lg">Definir um <em>preço justo</em></h3>
-                <p className="text-foreground/80">Sem copiar o valor da concorrência e <strong>com confiança</strong>.</p>
-              </div>
-            </div>
-            <div className="flex items-start gap-4">
-              <div className="bg-primary/10 p-3 rounded-lg"><Sparkles className="w-6 h-6 text-primary" /></div>
-              <div>
-                <h3 className="font-bold text-lg">Parar de se sentir <em>culpada</em></h3>
-                <p className="text-foreground/80">Entenda o <strong>valor do seu trabalho</strong> e cobre sem culpa.</p>
-              </div>
-            </div>
-            <div className="flex items-start gap-4">
-              <div className="bg-primary/10 p-3 rounded-lg"><MessageSquare className="w-6 h-6 text-primary" /></div>
-              <div>
-                <h3 className="font-bold text-lg">Responder ao "tá caro"</h3>
-                <p className="text-foreground/80"><em>Técnicas e mensagens prontas</em> para contornar objeções.</p>
-              </div>
-            </div>
-            <div className="flex items-start gap-4">
-              <div className="bg-primary/10 p-3 rounded-lg"><TrendingUp className="w-6 h-6 text-primary" /></div>
-              <div>
-                <h3 className="font-bold text-lg">Anunciar <em>reajuste</em></h3>
-                <p className="text-foreground/80">A forma <strong>correta</strong> de comunicar aumentos <em>sem criar conflito</em>.</p>
-              </div>
-            </div>
-            <div className="flex items-start gap-4">
-              <div className="bg-primary/10 p-3 rounded-lg"><BookOpen className="w-6 h-6 text-primary" /></div>
-              <div>
-                <h3 className="font-bold text-lg">Criar <em>regras simples</em></h3>
-                <p className="text-foreground/80">Para <strong>filtrar clientes-problema</strong> e ter mais tranquilidade.</p>
-              </div>
-            </div>
-            <div className="flex items-start gap-4">
-              <div className="bg-primary/10 p-3 rounded-lg"><NailPolish className="w-6 h-6 text-primary" /></div>
-              <div>
-                <h3 className="font-bold text-lg">Ganhar <em>mais</em>, trabalhando <em>menos</em></h3>
-                <p className="text-foreground/80">Otimize sua agenda e sua precificação para ser <strong>mais lucrativa</strong>.</p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      {/* What's Inside */}
-      <section className="w-full py-16 lg:py-24 bg-background">
-        <div className="container mx-auto px-4 max-w-4xl">
-          <h2 className="font-headline text-3xl md:text-4xl font-bold text-center mb-12">O que tem <strong>dentro</strong> do material</h2>
-          <Card>
-            <CardContent className="p-8 grid sm:grid-cols-2 gap-8">
-              <ul className="space-y-4">
-                <CheckListItem>Guia digital em PDF (<strong>leitura rápida</strong>)</CheckListItem>
-                <CheckListItem>Checklists <strong>simples e práticos</strong></CheckListItem>
-                <CheckListItem><strong>Mensagens prontas</strong> para WhatsApp</CheckListItem>
-                <CheckListItem>Linguagem <strong>fácil</strong>, <em>sem termos difíceis</em></CheckListItem>
-              </ul>
-              <div className="text-center bg-secondary p-6 rounded-lg">
-                <p className="font-bold text-lg">Pode ser consumido em <em>1 a 2 horas</em></p>
-                <p className="text-primary font-semibold text-xl mt-2">Aplicação <strong>imediata!</strong></p>
-              </div>
-            </CardContent>
-          </Card>
-        </div>
-      </section>
-
-      {/* Before & After */}
-      <section className="w-full py-16 lg:py-24 bg-background">
-        <div className="container mx-auto px-4">
-          <h2 className="font-headline text-3xl md:text-4xl font-bold text-center mb-12">Sua <strong>transformação</strong></h2>
-          <div className="grid md:grid-cols-2 gap-8 max-w-5xl mx-auto">
-            <Card className="border-destructive/50 border-2">
-              <CardContent className="p-8">
-                <h3 className="font-headline text-2xl font-bold mb-4 text-destructive flex items-center gap-2"><XCircle/> Antes</h3>
-                <ul className="space-y-3">
-                  <XListItem><strong>Medo</strong> de cobrar</XListItem>
-                  <XListItem><strong>Insegurança</strong> para se posicionar</XListItem>
-                  <XListItem>Clientes <strong>desvalorizando</strong> seu trabalho</XListItem>
-                  <XListItem>Muito trabalho, <strong>pouco retorno</strong></XListItem>
-                </ul>
-              </CardContent>
-            </Card>
-            <Card className="border-primary/50 border-2">
-              <CardContent className="p-8">
-                <h3 className="font-headline text-2xl font-bold mb-4 text-primary flex items-center gap-2"><CheckCircle/> Depois</h3>
-                <ul className="space-y-3">
-                  <CheckListItem><strong>Clareza</strong> no preço e <em>confiança</em></CheckListItem>
-                  <CheckListItem>Postura profissional que <strong>impõe respeito</strong></CheckListItem>
-                  <CheckListItem>Clientes que <strong>respeitam e valorizam</strong></CheckListItem>
-                  <CheckListItem><strong>Mais dinheiro</strong> no fim do mês</CheckListItem>
-                </ul>
-              </CardContent>
-            </Card>
-          </div>
-        </div>
-      </section>
-
       {/* Testimonials */}
       <section className="w-full py-16 lg:py-24 bg-secondary">
         <div className="container mx-auto px-4 max-w-5xl">
@@ -299,6 +139,166 @@ export default function Home() {
                   <p className="font-bold">Carla Lima</p>
                   <p className="text-sm text-primary font-semibold">De R$1.800 &rarr; R$4.000/mês</p>
                 </div>
+              </CardContent>
+            </Card>
+          </div>
+        </div>
+      </section>
+
+      {/* The Real Problem */}
+      <section className="w-full py-16 lg:py-24 bg-background">
+        <div className="container mx-auto px-4 text-center max-w-3xl">
+          <h2 className="font-headline text-3xl md:text-4xl font-bold">O <strong>Problema Real</strong> (sem romantizar)</h2>
+          <p className="mt-6 text-lg md:text-xl">
+            A maioria das Nail Designers não ganha pouco porque trabalha mal. <em>Ganha pouco porque:</em>
+          </p>
+          <div className="mt-8 space-y-4 text-left mx-auto max-w-md">
+            <p className="flex items-center gap-3"><XCircle className="text-destructive w-6 h-6 shrink-0"/> Não sabe se <strong>posicionar</strong></p>
+            <p className="flex items-center gap-3"><XCircle className="text-destructive w-6 h-6 shrink-0"/> Não tem <strong>regras claras</strong></p>
+            <p className="flex items-center gap-3"><XCircle className="text-destructive w-6 h-6 shrink-0"/> Não sabe como <strong>falar de preço</strong></p>
+            <p className="flex items-center gap-3"><XCircle className="text-destructive w-6 h-6 shrink-0"/> Aceita tudo por <strong>medo</strong> de ficar sem cliente</p>
+          </div>
+          <div className="mt-8 bg-card p-6 rounded-lg shadow-md inline-block">
+            <p className="text-xl font-bold"><strong>Resultado? 👉 Agenda cheia, corpo cansado, bolso vazio.</strong></p>
+          </div>
+        </div>
+      </section>
+
+      {/* The Solution */}
+      <section className="w-full py-16 lg:py-24 bg-secondary">
+        <div className="container mx-auto px-4 grid md:grid-cols-2 gap-12 items-center">
+          <div className="order-last md:order-first">
+            <h2 className="font-headline text-4xl md:text-5xl font-extrabold text-primary">A transformação da Kelly</h2>
+            <p className="mt-4 text-lg md:text-xl">
+              Antes do método, Kelly vivia com a agenda lotada e a conta vazia. O cansaço era constante e o tempo com a família, quase nulo.
+            </p>
+            <p className="mt-4 text-lg md:text-xl">
+              Depois de aplicar as mesmas técnicas que estão neste guia, ela conquistou:
+            </p>
+            <ul className="mt-6 space-y-4 text-lg">
+                <li className="flex items-center gap-3"><Clock className="w-6 h-6 text-primary"/> Mais <strong>tempo com a família</strong></li>
+                <li className="flex items-center gap-3"><Heart className="w-6 h-6 text-primary"/> Mais <strong>qualidade de vida</strong></li>
+                <li className="flex items-center gap-3"><DollarSign className="w-6 h-6 text-primary"/> <strong>Faturamento mais alto</strong>, trabalhando menos</li>
+            </ul>
+            <p className="mt-6 text-lg font-semibold">Essa transformação também pode ser a sua.</p>
+            <Button asChild size="lg" className="mt-8 group">
+              <Link href="#pricing">
+                EU QUERO ESSA TRANSFORMAÇÃO <ArrowRight className="ml-2 h-5 w-5 group-hover:translate-x-1 transition-transform" />
+              </Link>
+            </Button>
+          </div>
+          <div className="text-center md:text-left">
+            {guideCoverImage && (
+              <Image
+                src={guideCoverImage.imageUrl}
+                alt={guideCoverImage.description}
+                width={400}
+                height={500}
+                data-ai-hint={guideCoverImage.imageHint}
+                className="rounded-lg shadow-2xl mx-auto"
+              />
+            )}
+          </div>
+        </div>
+      </section>
+
+      {/* What You'll Learn */}
+      <section className="w-full py-16 lg:py-24 bg-background">
+        <div className="container mx-auto px-4 max-w-4xl">
+          <h2 className="font-headline text-3xl md:text-4xl font-bold text-center mb-12">Com o Nail Designer Bem Paga, você vai <strong>aprender</strong>:</h2>
+          <div className="grid sm:grid-cols-2 gap-8">
+            <div className="flex items-start gap-4">
+              <div className="bg-primary/10 p-3 rounded-lg"><Wallet className="w-6 h-6 text-primary" /></div>
+              <div>
+                <h3 className="font-bold text-lg">Definir um <em>preço justo</em></h3>
+                <p className="text-foreground/80">Sem copiar o valor da concorrência e <strong>com confiança</strong>.</p>
+              </div>
+            </div>
+            <div className="flex items-start gap-4">
+              <div className="bg-primary/10 p-3 rounded-lg"><Sparkles className="w-6 h-6 text-primary" /></div>
+              <div>
+                <h3 className="font-bold text-lg">Parar de se sentir <em>culpada</em></h3>
+                <p className="text-foreground/80">Entenda o <strong>valor do seu trabalho</strong> e cobre sem culpa.</p>
+              </div>
+            </div>
+            <div className="flex items-start gap-4">
+              <div className="bg-primary/10 p-3 rounded-lg"><MessageSquare className="w-6 h-6 text-primary" /></div>
+              <div>
+                <h3 className="font-bold text-lg">Responder ao "tá caro"</h3>
+                <p className="text-foreground/80"><em>Técnicas e mensagens prontas</em> para contornar objeções.</p>
+              </div>
+            </div>
+            <div className="flex items-start gap-4">
+              <div className="bg-primary/10 p-3 rounded-lg"><TrendingUp className="w-6 h-6 text-primary" /></div>
+              <div>
+                <h3 className="font-bold text-lg">Anunciar <em>reajuste</em></h3>
+                <p className="text-foreground/80">A forma <strong>correta</strong> de comunicar aumentos <em>sem criar conflito</em>.</p>
+              </div>
+            </div>
+            <div className="flex items-start gap-4">
+              <div className="bg-primary/10 p-3 rounded-lg"><BookOpen className="w-6 h-6 text-primary" /></div>
+              <div>
+                <h3 className="font-bold text-lg">Criar <em>regras simples</em></h3>
+                <p className="text-foreground/80">Para <strong>filtrar clientes-problema</strong> e ter mais tranquilidade.</p>
+              </div>
+            </div>
+            <div className="flex items-start gap-4">
+              <div className="bg-primary/10 p-3 rounded-lg"><NailPolish className="w-6 h-6 text-primary" /></div>
+              <div>
+                <h3 className="font-bold text-lg">Ganhar <em>mais</em>, trabalhando <em>menos</em></h3>
+                <p className="text-foreground/80">Otimize sua agenda e sua precificação para ser <strong>mais lucrativa</strong>.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* What's Inside */}
+      <section className="w-full py-16 lg:py-24 bg-secondary">
+        <div className="container mx-auto px-4 max-w-4xl">
+          <h2 className="font-headline text-3xl md:text-4xl font-bold text-center mb-12">O que tem <strong>dentro</strong> do material</h2>
+          <Card>
+            <CardContent className="p-8 grid sm:grid-cols-2 gap-8">
+              <ul className="space-y-4">
+                <CheckListItem>Guia digital em PDF (<strong>leitura rápida</strong>)</CheckListItem>
+                <CheckListItem>Checklists <strong>simples e práticos</strong></CheckListItem>
+                <CheckListItem><strong>Mensagens prontas</strong> para WhatsApp</CheckListItem>
+                <CheckListItem>Linguagem <strong>fácil</strong>, <em>sem termos difíceis</em></CheckListItem>
+              </ul>
+              <div className="text-center bg-card p-6 rounded-lg">
+                <p className="font-bold text-lg">Pode ser consumido em <em>1 a 2 horas</em></p>
+                <p className="text-primary font-semibold text-xl mt-2">Aplicação <strong>imediata!</strong></p>
+              </div>
+            </CardContent>
+          </Card>
+        </div>
+      </section>
+
+      {/* Before & After */}
+      <section className="w-full py-16 lg:py-24 bg-background">
+        <div className="container mx-auto px-4">
+          <h2 className="font-headline text-3xl md:text-4xl font-bold text-center mb-12">Sua <strong>transformação</strong></h2>
+          <div className="grid md:grid-cols-2 gap-8 max-w-5xl mx-auto">
+            <Card className="border-destructive/50 border-2">
+              <CardContent className="p-8">
+                <h3 className="font-headline text-2xl font-bold mb-4 text-destructive flex items-center gap-2"><XCircle/> Antes</h3>
+                <ul className="space-y-3">
+                  <XListItem><strong>Medo</strong> de cobrar</XListItem>
+                  <XListItem><strong>Insegurança</strong> para se posicionar</XListItem>
+                  <XListItem>Clientes <strong>desvalorizando</strong> seu trabalho</XListItem>
+                  <XListItem>Muito trabalho, <strong>pouco retorno</strong></XListItem>
+                </ul>
+              </CardContent>
+            </Card>
+            <Card className="border-primary/50 border-2">
+              <CardContent className="p-8">
+                <h3 className="font-headline text-2xl font-bold mb-4 text-primary flex items-center gap-2"><CheckCircle/> Depois</h3>
+                <ul className="space-y-3">
+                  <CheckListItem><strong>Clareza</strong> no preço e <em>confiança</em></CheckListItem>
+                  <CheckListItem>Postura profissional que <strong>impõe respeito</strong></CheckListItem>
+                  <CheckListItem>Clientes que <strong>respeitam e valorizam</strong></CheckListItem>
+                  <CheckListItem><strong>Mais dinheiro</strong> no fim do mês</CheckListItem>
+                </ul>
               </CardContent>
             </Card>
           </div>
