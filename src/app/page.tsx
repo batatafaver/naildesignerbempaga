@@ -1,6 +1,6 @@
 import Image from 'next/image';
 import Link from 'next/link';
-import { ArrowRight, CheckCircle, Gift, MessageSquare, ShieldCheck, TrendingUp, Wallet, XCircle, BookOpen, Sparkles, Sheet, ClipboardCopy, ClipboardCheck, Clock, Heart, DollarSign } from 'lucide-react';
+import { ArrowRight, CheckCircle, Gift, MessageSquare, ShieldCheck, TrendingUp, Wallet, XCircle, BookOpen, Sparkles, Sheet, ClipboardCopy, ClipboardCheck, Clock, Heart, DollarSign, Star } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
 import { PlaceHolderImages } from '@/lib/placeholder-images';
@@ -242,6 +242,63 @@ export default function Home() {
                   <CheckListItem>Clientes que <strong>respeitam e valorizam</strong></CheckListItem>
                   <CheckListItem><strong>Mais dinheiro</strong> no fim do mês</CheckListItem>
                 </ul>
+              </CardContent>
+            </Card>
+          </div>
+        </div>
+      </section>
+
+      {/* Testimonials */}
+      <section className="w-full py-16 lg:py-24 bg-secondary">
+        <div className="container mx-auto px-4 max-w-5xl">
+          <h2 className="font-headline text-3xl md:text-4xl font-bold text-center mb-12">Elas aplicaram o método e hoje são <span className="text-primary">Bem Pagas</span></h2>
+          <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+            <Card className="flex">
+              <CardContent className="p-6 flex flex-col h-full">
+                <div className="flex text-primary mb-2">
+                  <Star className="w-5 h-5 fill-primary" />
+                  <Star className="w-5 h-5 fill-primary" />
+                  <Star className="w-5 h-5 fill-primary" />
+                  <Star className="w-5 h-5 fill-primary" />
+                  <Star className="w-5 h-5 fill-primary" />
+                </div>
+                <p className="italic text-foreground/90 flex-grow">"Eu não tinha coragem de cobrar o valor justo. Depois do guia, meu faturamento dobrou em menos de 30 dias. Incrível!"</p>
+                <div className="mt-4 text-right">
+                  <p className="font-bold">Ana Silva</p>
+                  <p className="text-sm text-primary font-semibold">De R$2.500 &rarr; R$5.000/mês</p>
+                </div>
+              </CardContent>
+            </Card>
+            <Card className="flex">
+              <CardContent className="p-6 flex flex-col h-full">
+                <div className="flex text-primary mb-2">
+                  <Star className="w-5 h-5 fill-primary" />
+                  <Star className="w-5 h-5 fill-primary" />
+                  <Star className="w-5 h-5 fill-primary" />
+                  <Star className="w-5 h-5 fill-primary" />
+                  <Star className="w-5 h-5 fill-primary" />
+                </div>
+                <p className="italic text-foreground/90 flex-grow">"Finalmente consegui organizar minhas finanças e impor minhas regras. As clientes-problema sumiram e as boas pagam o novo valor sorrindo."</p>
+                <div className="mt-4 text-right">
+                  <p className="font-bold">Juliana Costa</p>
+                  <p className="text-sm text-primary font-semibold">De R$3.000 &rarr; R$6.200/mês</p>
+                </div>
+              </CardContent>
+            </Card>
+            <Card className="flex">
+              <CardContent className="p-6 flex flex-col h-full">
+                <div className="flex text-primary mb-2">
+                  <Star className="w-5 h-5 fill-primary" />
+                  <Star className="w-5 h-5 fill-primary" />
+                  <Star className="w-5 h-5 fill-primary" />
+                  <Star className="w-5 h-5 fill-primary" />
+                  <Star className="w-5 h-5 fill-primary" />
+                </div>
+                <p className="italic text-foreground/90 flex-grow">"Achei que ia perder clientes com o reajuste, mas aconteceu o contrário! Minha agenda continua cheia e eu trabalho menos, ganhando mais."</p>
+                <div className="mt-4 text-right">
+                  <p className="font-bold">Carla Lima</p>
+                  <p className="text-sm text-primary font-semibold">De R$1.800 &rarr; R$4.000/mês</p>
+                </div>
               </CardContent>
             </Card>
           </div>
