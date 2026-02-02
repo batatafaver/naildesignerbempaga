@@ -25,6 +25,12 @@ const XListItem = ({ children }: { children: React.ReactNode }) => (
 export default function Home() {
   const guideCoverImage = PlaceHolderImages.find(p => p.id === 'guide-cover');
   const kellyImage = PlaceHolderImages.find(p => p.id === 'kelly-martins');
+  const kellyTransformationImage = PlaceHolderImages.find(p => p.id === 'kelly-transformation');
+
+  const testimonial1 = PlaceHolderImages.find(p => p.id === 'testimonial-1');
+  const testimonial2 = PlaceHolderImages.find(p => p.id === 'testimonial-2');
+  const testimonial3 = PlaceHolderImages.find(p => p.id === 'testimonial-3');
+  const testimonial4 = PlaceHolderImages.find(p => p.id === 'testimonial-4');
 
   return (
     <main className="flex flex-col items-center overflow-hidden">
@@ -92,55 +98,83 @@ export default function Home() {
       <section className="w-full py-16 lg:py-24 bg-secondary">
         <div className="container mx-auto px-4 max-w-5xl">
           <h2 className="font-headline text-3xl md:text-4xl font-bold text-center mb-12">Elas aplicaram o método e hoje são <span className="text-primary">Bem Pagas</span></h2>
-          <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
-            <Card className="flex">
-              <CardContent className="p-6 flex flex-col h-full">
-                <div className="flex text-primary mb-2">
-                  <Star className="w-5 h-5 fill-primary" />
-                  <Star className="w-5 h-5 fill-primary" />
-                  <Star className="w-5 h-5 fill-primary" />
-                  <Star className="w-5 h-5 fill-primary" />
-                  <Star className="w-5 h-5 fill-primary" />
-                </div>
-                <p className="italic text-foreground/90 flex-grow">"Eu não tinha coragem de cobrar o valor justo. Depois do guia, meu faturamento dobrou em menos de 30 dias. Incrível!"</p>
-                <div className="mt-4 text-right">
-                  <p className="font-bold">Ana Silva</p>
-                  <p className="text-sm text-primary font-semibold">De R$2.500 &rarr; R$5.000/mês</p>
-                </div>
-              </CardContent>
-            </Card>
-            <Card className="flex">
-              <CardContent className="p-6 flex flex-col h-full">
-                <div className="flex text-primary mb-2">
-                  <Star className="w-5 h-5 fill-primary" />
-                  <Star className="w-5 h-5 fill-primary" />
-                  <Star className="w-5 h-5 fill-primary" />
-                  <Star className="w-5 h-5 fill-primary" />
-                  <Star className="w-5 h-5 fill-primary" />
-                </div>
-                <p className="italic text-foreground/90 flex-grow">"Finalmente consegui organizar minhas finanças e impor minhas regras. As clientes-problema sumiram e as boas pagam o novo valor sorrindo."</p>
-                <div className="mt-4 text-right">
-                  <p className="font-bold">Juliana Costa</p>
-                  <p className="text-sm text-primary font-semibold">De R$3.000 &rarr; R$6.200/mês</p>
-                </div>
-              </CardContent>
-            </Card>
-            <Card className="flex">
-              <CardContent className="p-6 flex flex-col h-full">
-                <div className="flex text-primary mb-2">
-                  <Star className="w-5 h-5 fill-primary" />
-                  <Star className="w-5 h-5 fill-primary" />
-                  <Star className="w-5 h-5 fill-primary" />
-                  <Star className="w-5 h-5 fill-primary" />
-                  <Star className="w-5 h-5 fill-primary" />
-                </div>
-                <p className="italic text-foreground/90 flex-grow">"Achei que ia perder clientes com o reajuste, mas aconteceu o contrário! Minha agenda continua cheia e eu trabalho menos, ganhando mais."</p>
-                <div className="mt-4 text-right">
-                  <p className="font-bold">Carla Lima</p>
-                  <p className="text-sm text-primary font-semibold">De R$1.800 &rarr; R$4.000/mês</p>
-                </div>
-              </CardContent>
-            </Card>
+          <div className="grid md:grid-cols-2 gap-8">
+            {testimonial1 && (
+              <Card className="flex flex-col">
+                <Image
+                  src={testimonial1.imageUrl}
+                  alt={testimonial1.description}
+                  width={400}
+                  height={200}
+                  className="rounded-t-lg object-cover w-full h-auto"
+                  data-ai-hint={testimonial1.imageHint}
+                />
+                <CardContent className="p-6 flex flex-col h-full flex-grow">
+                  <p className="italic text-foreground/90 flex-grow">"Eu não tinha coragem de cobrar o valor justo. Depois do guia, meu faturamento dobrou em menos de 30 dias. Incrível!"</p>
+                  <div className="mt-4 text-right">
+                    <p className="font-bold">Ana Silva</p>
+                    <p className="text-sm text-primary font-semibold">De R$2.500 &rarr; R$5.000/mês</p>
+                  </div>
+                </CardContent>
+              </Card>
+            )}
+             {testimonial2 && (
+              <Card className="flex flex-col">
+                <Image
+                  src={testimonial2.imageUrl}
+                  alt={testimonial2.description}
+                  width={400}
+                  height={200}
+                  className="rounded-t-lg object-cover w-full h-auto"
+                  data-ai-hint={testimonial2.imageHint}
+                />
+                <CardContent className="p-6 flex flex-col h-full flex-grow">
+                  <p className="italic text-foreground/90 flex-grow">"Finalmente consegui organizar minhas finanças e impor minhas regras. As clientes-problema sumiram e as boas pagam o novo valor sorrindo."</p>
+                  <div className="mt-4 text-right">
+                    <p className="font-bold">Juliana Costa</p>
+                    <p className="text-sm text-primary font-semibold">De R$3.000 &rarr; R$6.200/mês</p>
+                  </div>
+                </CardContent>
+              </Card>
+            )}
+             {testimonial3 && (
+              <Card className="flex flex-col">
+                <Image
+                  src={testimonial3.imageUrl}
+                  alt={testimonial3.description}
+                  width={400}
+                  height={200}
+                  className="rounded-t-lg object-cover w-full h-auto"
+                  data-ai-hint={testimonial3.imageHint}
+                />
+                <CardContent className="p-6 flex flex-col h-full flex-grow">
+                  <p className="italic text-foreground/90 flex-grow">"Achei que ia perder clientes com o reajuste, mas aconteceu o contrário! Minha agenda continua cheia e eu trabalho menos, ganhando mais."</p>
+                  <div className="mt-4 text-right">
+                    <p className="font-bold">Carla Lima</p>
+                    <p className="text-sm text-primary font-semibold">De R$1.800 &rarr; R$4.000/mês</p>
+                  </div>
+                </CardContent>
+              </Card>
+            )}
+             {testimonial4 && (
+              <Card className="flex flex-col">
+                <Image
+                  src={testimonial4.imageUrl}
+                  alt={testimonial4.description}
+                  width={400}
+                  height={200}
+                  className="rounded-t-lg object-cover w-full h-auto"
+                  data-ai-hint={testimonial4.imageHint}
+                />
+                <CardContent className="p-6 flex flex-col h-full flex-grow">
+                  <p className="italic text-foreground/90 flex-grow">"O medo de falar o preço era o que me travava. Com as mensagens prontas do guia, fechei 5 novas clientes na primeira semana com meu novo valor!"</p>
+                  <div className="mt-4 text-right">
+                    <p className="font-bold">Mariana Souza</p>
+                    <p className="text-sm text-primary font-semibold">De R$2.200 &rarr; R$4.500/mês</p>
+                  </div>
+                </CardContent>
+              </Card>
+            )}
           </div>
         </div>
       </section>

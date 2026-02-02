@@ -29,6 +29,30 @@
       "description": "Uma mulher feliz com sua família, representando mais tempo e qualidade de vida.",
       "imageUrl": "https://images.unsplash.com/photo-1581952976147-5a2d15560349?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw3fHxoYXBweSUyMGZhbWlseXxlbnwwfHx8fDE3Njk4ODM3NDl8MA&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "happy family"
+    },
+    {
+      "id": "testimonial-1",
+      "description": "Primeiro depoimento com comprovante de ganhos.",
+      "imageUrl": "https://i.postimg.cc/MpNGg3gC/5cf1755ea8fbdd9e1e01fbc2a3bdfacd.jpg",
+      "imageHint": "earnings proof"
+    },
+    {
+      "id": "testimonial-2",
+      "description": "Segundo depoimento com comprovante de ganhos.",
+      "imageUrl": "https://i.postimg.cc/P59q0VBn/images.jpg",
+      "imageHint": "earnings proof"
+    },
+    {
+      "id": "testimonial-3",
+      "description": "Terceiro depoimento com comprovante de ganhos.",
+      "imageUrl": "https://i.postimg.cc/g2Q01tfP/images-(4).png",
+      "imageHint": "earnings proof"
+    },
+    {
+      "id": "testimonial-4",
+      "description": "Quarto depoimento com comprovante de ganhos.",
+      "imageUrl": "https://i.postimg.cc/GmVp6gZR/img7.png",
+      "imageHint": "earnings proof"
     }
   ]
 }
