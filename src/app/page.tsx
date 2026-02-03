@@ -62,7 +62,7 @@ export default function Home() {
               </div>
               <div className="text-center md:text-left">
                   <h1 className="font-headline text-4xl md:text-5xl font-extrabold text-primary-foreground bg-clip-text text-transparent bg-gradient-to-r from-primary via-accent to-primary">
-                      Trabalhe como Manicure e <em>pare de ganhar pouco</em> pelo esforço que você faz
+                      Você trabalha como Manicure, se dedica todos os dias… mas no fim do mês sente que ganha pouco demais por tudo o que faz
                   </h1>
                   <p className="mt-4 md:mt-6 max-w-xl mx-auto md:mx-0 text-lg md:text-xl text-foreground/80 font-headline">
                       Descubra como cobrar mais como Manicure, <em>mesmo tendo medo de perder clientes</em>, <strong>sem brigar por preço</strong> e <strong>sem depender de indicação</strong>.
@@ -413,7 +413,3 @@ export default function Home() {
     </main>
   );
 }
-
-    
-
-    
