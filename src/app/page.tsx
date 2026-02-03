@@ -114,7 +114,7 @@ export default function Home() {
                   <p className="italic text-foreground/90 flex-grow">"Eu não tinha coragem de cobrar o valor justo. Depois do guia, meu faturamento dobrou em menos de 30 dias. Incrível!"</p>
                   <div className="mt-4 text-right">
                     <p className="font-bold">Ana Silva</p>
-                    <p className="text-sm text-primary font-semibold">De R$2.500 &rarr; R$5.000/mês</p>
+                    <p className="text-sm text-primary font-semibold">De R$4.000 &rarr; R$8.000/mês</p>
                   </div>
                 </CardContent>
               </Card>
