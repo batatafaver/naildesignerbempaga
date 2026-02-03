@@ -186,16 +186,19 @@ export default function Home() {
         <div className="container mx-auto px-4 text-center max-w-3xl">
           <h2 className="font-headline text-3xl md:text-4xl font-bold">O <strong>Problema Real</strong> (sem romantizar)</h2>
           <p className="mt-6 text-lg md:text-xl">
-            A maioria das Manicures não ganha pouco porque trabalha mal. <em>Ganha pouco porque:</em>
+            A maioria das Manicures não ganha pouco porque trabalha mal. Ganha pouco porque ninguém nunca ensinou como se posicionar.
           </p>
-          <div className="mt-8 space-y-4 text-left mx-auto max-w-md">
-            <p className="flex items-center gap-3"><XCircle className="text-destructive w-6 h-6 shrink-0"/> Não sabe se <strong>posicionar</strong></p>
-            <p className="flex items-center gap-3"><XCircle className="text-destructive w-6 h-6 shrink-0"/> Não tem <strong>regras claras</strong></p>
-            <p className="flex items-center gap-3"><XCircle className="text-destructive w-6 h-6 shrink-0"/> Não sabe como <strong>falar de preço</strong></p>
-            <p className="flex items-center gap-3"><XCircle className="text-destructive w-6 h-6 shrink-0"/> Aceita tudo por <strong>medo</strong> de ficar sem cliente</p>
+          <p className="mt-8 text-lg font-bold">Ela:</p>
+          <div className="mt-4 space-y-4 text-left mx-auto max-w-md">
+            <p className="flex items-center gap-3"><XCircle className="text-destructive w-6 h-6 shrink-0"/> Não sabe se posicionar</p>
+            <p className="flex items-center gap-3"><XCircle className="text-destructive w-6 h-6 shrink-0"/> Não tem regras claras</p>
+            <p className="flex items-center gap-3"><XCircle className="text-destructive w-6 h-6 shrink-0"/> Não sabe falar de preço sem travar</p>
+            <p className="flex items-center gap-3"><XCircle className="text-destructive w-6 h-6 shrink-0"/> Aceita tudo por medo de ficar sem cliente</p>
           </div>
           <div className="mt-8 bg-card p-6 rounded-lg shadow-md inline-block">
-            <p className="text-xl font-bold"><strong>Resultado? 👉 Agenda cheia, corpo cansado, bolso vazio.</strong></p>
+            <p className="text-xl font-bold">👉 Resultado?</p>
+            <p className="text-lg mt-2">Agenda cheia. Corpo cansado. <span className="font-bold">Conta vazia.</span></p>
+            <p className="text-base mt-1">E a sensação de estar sempre correndo atrás.</p>
           </div>
         </div>
       </section>
