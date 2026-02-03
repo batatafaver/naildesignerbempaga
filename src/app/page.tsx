@@ -168,10 +168,10 @@ export default function Home() {
                   data-ai-hint={testimonial4.imageHint}
                 />
                 <CardContent className="p-6 flex flex-col h-full flex-grow">
-                  <p className="italic text-foreground/90 flex-grow">"O medo de falar o preço era o que me travava. Com as mensagens prontas do guia, fechei 5 novas clientes na primeira semana com meu novo valor!"</p>
+                  <p className="italic text-foreground/90 flex-grow">"Eu nunca, NUNCA imaginei que conseguiria faturar mais de R$5.100 em um único mês. Para mim isso era impossível como Nail Designer. O guia mudou completamente a minha mentalidade e hoje eu finalmente sou paga o valor que mereço!"</p>
                   <div className="mt-4 text-right">
                     <p className="font-bold">Mariana Souza</p>
-                    <p className="text-sm text-primary font-semibold">De R$2.200 &rarr; R$4.500/mês</p>
+                    <p className="text-sm text-primary font-semibold">De R$2.200 &rarr; R$5.165/mês</p>
                   </div>
                 </CardContent>
               </Card>
