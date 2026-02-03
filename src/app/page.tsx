@@ -82,15 +82,15 @@ export default function Home() {
         <div className="container mx-auto px-4 max-w-4xl">
           <Card className="shadow-2xl">
             <CardContent className="p-8 md:p-12">
-              <h2 className="font-headline text-2xl md:text-3xl font-bold text-center mb-8">Se você é Manicure e sente que:</h2>
+              <h2 className="font-headline text-2xl md:text-3xl font-bold text-center mb-8">Se você é Manicure e sente que…</h2>
               <ul className="space-y-4 text-lg text-foreground/90">
-                <CheckListItem>Trabalha <em>muito</em> e o dinheiro <strong>nunca sobra</strong></CheckListItem>
-                <CheckListItem>Cobra <strong>menos do que deveria</strong></CheckListItem>
-                <CheckListItem>Aceita cliente que <strong>não respeita seu horário</strong></CheckListItem>
-                <CheckListItem>Fica desconfortável quando precisa <strong>falar de preço</strong></CheckListItem>
-                <CheckListItem>Tem <strong>medo de reajustar</strong> e perder clientes</CheckListItem>
+                <CheckListItem>Trabalha o dia inteiro e o dinheiro nunca sobra</CheckListItem>
+                <CheckListItem>Cobra menos do que sabe que merece</CheckListItem>
+                <CheckListItem>Aceita cliente que atrasa, desmarca ou não respeita seu horário</CheckListItem>
+                <CheckListItem>Fica desconfortável só de pensar em falar de preço</CheckListItem>
+                <CheckListItem>Morre de medo de reajustar e perder clientes</CheckListItem>
               </ul>
-              <p className="mt-8 text-center font-bold text-lg text-primary">... <strong>então esse material é pra você.</strong></p>
+              <p className="mt-8 text-center font-bold text-lg text-primary">👉 Então esse material foi feito exatamente pra você.</p>
             </CardContent>
           </Card>
         </div>
