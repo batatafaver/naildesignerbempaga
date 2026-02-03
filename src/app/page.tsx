@@ -1,3 +1,4 @@
+
 import Image from 'next/image';
 import Link from 'next/link';
 import { ArrowRight, CheckCircle, Gift, MessageSquare, ShieldCheck, TrendingUp, Wallet, XCircle, BookOpen, Sparkles, Sheet, ClipboardCopy, ClipboardCheck, Clock, Heart, DollarSign, Star } from 'lucide-react';
@@ -149,7 +150,7 @@ export default function Home() {
                   data-ai-hint={testimonial3.imageHint}
                 />
                 <CardContent className="p-6 flex flex-col h-full flex-grow">
-                  <p className="italic text-foreground/90 flex-grow">"Achei que ia perder clientes com o reajuste, mas aconteceu o contrário! Minha agenda continua cheia e eu trabalho menos, ganhando mais."</p>
+                  <p className="italic text-foreground/90 flex-grow">"Em 3 meses, aplicando o método, eu não só dobrei meu faturamento como hoje tenho liberdade de tempo. As clientes certas chegaram e eu não preciso mais me matar de trabalhar. É uma virada de chave surreal!"</p>
                   <div className="mt-4 text-right">
                     <p className="font-bold">Carla Lima</p>
                     <p className="text-sm text-primary font-semibold">De R$4.000 &rarr; R$8.000/mês</p>
@@ -412,5 +413,7 @@ export default function Home() {
     </main>
   );
 }
+
+    
 
     
