@@ -151,7 +151,7 @@ export default function Home() {
                   <p className="italic text-foreground/90 flex-grow">"Achei que ia perder clientes com o reajuste, mas aconteceu o contrário! Minha agenda continua cheia e eu trabalho menos, ganhando mais."</p>
                   <div className="mt-4 text-right">
                     <p className="font-bold">Carla Lima</p>
-                    <p className="text-sm text-primary font-semibold">De R$1.800 &rarr; R$4.000/mês</p>
+                    <p className="text-sm text-primary font-semibold">De R$1.800 &rarr; R$8.000/mês</p>
                   </div>
                 </CardContent>
               </Card>
