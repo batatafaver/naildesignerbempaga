@@ -130,10 +130,10 @@ export default function Home() {
                   data-ai-hint={testimonial2.imageHint}
                 />
                 <CardContent className="p-6 flex flex-col h-full flex-grow">
-                  <p className="italic text-foreground/90 flex-grow">"Finalmente consegui organizar minhas finanças e impor minhas regras. As clientes-problema sumiram e as boas pagam o novo valor sorrindo."</p>
+                  <p className="italic text-foreground/90 flex-grow">"Finalmente consegui organizar minhas finanças e impor minhas regras. As clientes-problema sumiram e as boas pagam o novo valor sorrindo. Em 4 meses meu faturamento saltou de 2 mil pra mais de 6,7 mil!"</p>
                   <div className="mt-4 text-right">
                     <p className="font-bold">Juliana Costa</p>
-                    <p className="text-sm text-primary font-semibold">De R$3.000 &rarr; R$6.200/mês</p>
+                    <p className="text-sm text-primary font-semibold">De R$2.000 &rarr; R$6.700/mês</p>
                   </div>
                 </CardContent>
               </Card>
