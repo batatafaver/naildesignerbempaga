@@ -65,7 +65,7 @@ export default function Home() {
                       Você trabalha como Manicure, se dedica todos os dias… mas no fim do mês sente que ganha pouco demais por tudo o que faz
                   </h1>
                   <p className="mt-4 md:mt-6 max-w-xl mx-auto md:mx-0 text-lg md:text-xl text-foreground/80 font-headline">
-                      Descubra como cobrar mais como Manicure, <em>mesmo tendo medo de perder clientes</em>, <strong>sem brigar por preço</strong> e <strong>sem depender de indicação</strong>.
+                      Aprenda a cobrar mais como Manicure — <em>mesmo tendo medo de perder clientes</em> — <strong>sem brigar por preço</strong>, <strong>sem depender de indicação</strong> e <strong>sem se sentir culpada</strong>.
                   </p>
                   <Button asChild size="lg" className="mt-6 md:mt-8 group animate-pulse">
                       <Link href="#pricing">
