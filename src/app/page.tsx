@@ -6,6 +6,7 @@ import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
 import { PlaceHolderImages } from '@/lib/placeholder-images';
 import { cn } from '@/lib/utils';
 import { NailPolish } from '@/components/icons';
+import { Pixel } from '@/components/Pixel';
 
 const CheckListItem = ({ children }: { children: React.ReactNode }) => (
   <li className="flex items-start gap-3">
@@ -34,22 +35,22 @@ export default function Home() {
 
   return (
     <main className="flex flex-col items-center overflow-hidden">
-      
+      <Pixel />
       {/* Hero Section */}
       <section className="w-full bg-gradient-to-br from-background to-secondary py-12 sm:py-20">
         <div className="container mx-auto px-4">
           <div className="grid md:grid-cols-2 gap-12 items-center">
               <div className="relative md:order-last flex justify-center">
-                  {kellyImage && (
+                  {guideCoverImage && (
                       <div className="relative">
                           <Image
-                              src={kellyImage.imageUrl}
-                              alt={kellyImage.description}
+                              src={guideCoverImage.imageUrl}
+                              alt={guideCoverImage.description}
                               width={400}
                               height={400}
                               className="w-48 h-48 md:w-96 md:h-96 rounded-full aspect-square object-cover object-center shadow-2xl mx-auto"
                               priority
-                              data-ai-hint={kellyImage.imageHint}
+                              data-ai-hint={guideCoverImage.imageHint}
                           />
                            <div className="absolute bottom-0 right-0 left-0 mx-auto w-fit bg-card/80 backdrop-blur-sm p-3 rounded-lg shadow-lg text-center">
                               <p className="font-bold text-card-foreground">Kelly Martins</p>
@@ -151,7 +152,7 @@ export default function Home() {
                   <p className="italic text-foreground/90 flex-grow">"Achei que ia perder clientes com o reajuste, mas aconteceu o contrário! Minha agenda continua cheia e eu trabalho menos, ganhando mais."</p>
                   <div className="mt-4 text-right">
                     <p className="font-bold">Carla Lima</p>
-                    <p className="text-sm text-primary font-semibold">De R$1.800 &rarr; R$8.000/mês</p>
+                    <p className="text-sm text-primary font-semibold">De R$4.000 &rarr; R$8.000/mês</p>
                   </div>
                 </CardContent>
               </Card>
@@ -411,3 +412,5 @@ export default function Home() {
     </main>
   );
 }
+
+    
