@@ -112,7 +112,7 @@ export default function Home() {
                   data-ai-hint={testimonial1.imageHint}
                 />
                 <CardContent className="p-6 flex flex-col h-full flex-grow">
-                  <p className="italic text-foreground/90 flex-grow">"Eu não tinha coragem de cobrar o valor justo. Depois do guia, meu faturamento dobrou em menos de 30 dias. Incrível!"</p>
+                  <p className="italic text-foreground/90 flex-grow">"Eu não tinha coragem de cobrar o valor justo. Sempre achava que a cliente ia embora. Depois do guia, eu simplesmente passei a falar com mais segurança — e ninguém reclamou. Em menos de 30 dias, meu faturamento dobrou."</p>
                   <div className="mt-4 text-right">
                     <p className="font-bold">Ana Silva</p>
                     <p className="text-sm text-primary font-semibold">De R$4.000 &rarr; R$8.000/mês</p>
