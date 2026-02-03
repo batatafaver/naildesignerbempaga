@@ -62,14 +62,14 @@ export default function Home() {
               </div>
               <div className="text-center md:text-left">
                   <h1 className="font-headline text-4xl md:text-5xl font-extrabold text-primary-foreground bg-clip-text text-transparent bg-gradient-to-r from-primary via-accent to-primary">
-                      Trabalhe como Nail Designer e <em>pare de ganhar pouco</em> pelo esforço que você faz
+                      Trabalhe como Manicure e <em>pare de ganhar pouco</em> pelo esforço que você faz
                   </h1>
                   <p className="mt-4 md:mt-6 max-w-xl mx-auto md:mx-0 text-lg md:text-xl text-foreground/80 font-headline">
-                      Descubra como cobrar mais como Nail Designer, <em>mesmo tendo medo de perder clientes</em>, <strong>sem brigar por preço</strong> e <strong>sem depender de indicação</strong>.
+                      Descubra como cobrar mais como Manicure, <em>mesmo tendo medo de perder clientes</em>, <strong>sem brigar por preço</strong> e <strong>sem depender de indicação</strong>.
                   </p>
                   <Button asChild size="lg" className="mt-6 md:mt-8 group animate-pulse">
                       <Link href="#pricing">
-                          NAIL DESIGNER BEM PAGA <ArrowRight className="ml-2 h-5 w-5 group-hover:translate-x-1 transition-transform" />
+                          MANICURE BEM PAGA <ArrowRight className="ml-2 h-5 w-5 group-hover:translate-x-1 transition-transform" />
                       </Link>
                   </Button>
               </div>
@@ -82,7 +82,7 @@ export default function Home() {
         <div className="container mx-auto px-4 max-w-4xl">
           <Card className="shadow-2xl">
             <CardContent className="p-8 md:p-12">
-              <h2 className="font-headline text-2xl md:text-3xl font-bold text-center mb-8">Se você é Nail Designer e sente que:</h2>
+              <h2 className="font-headline text-2xl md:text-3xl font-bold text-center mb-8">Se você é Manicure e sente que:</h2>
               <ul className="space-y-4 text-lg text-foreground/90">
                 <CheckListItem>Trabalha <em>muito</em> e o dinheiro <strong>nunca sobra</strong></CheckListItem>
                 <CheckListItem>Cobra <strong>menos do que deveria</strong></CheckListItem>
@@ -169,7 +169,7 @@ export default function Home() {
                   data-ai-hint={testimonial4.imageHint}
                 />
                 <CardContent className="p-6 flex flex-col h-full flex-grow">
-                  <p className="italic text-foreground/90 flex-grow">"Eu nunca, NUNCA imaginei que conseguiria faturar mais de R$5.100 em um único mês. Para mim isso era impossível como Nail Designer. O guia mudou completamente a minha mentalidade e hoje eu finalmente sou paga o valor que mereço!"</p>
+                  <p className="italic text-foreground/90 flex-grow">"Eu nunca, NUNCA imaginei que conseguiria faturar mais de R$5.100 em um único mês. Para mim isso era impossível como Manicure. O guia mudou completamente a minha mentalidade e hoje eu finalmente sou paga o valor que mereço!"</p>
                   <div className="mt-4 text-right">
                     <p className="font-bold">Mariana Souza</p>
                     <p className="text-sm text-primary font-semibold">De R$2.200 &rarr; R$5.165/mês</p>
@@ -186,7 +186,7 @@ export default function Home() {
         <div className="container mx-auto px-4 text-center max-w-3xl">
           <h2 className="font-headline text-3xl md:text-4xl font-bold">O <strong>Problema Real</strong> (sem romantizar)</h2>
           <p className="mt-6 text-lg md:text-xl">
-            A maioria das Nail Designers não ganha pouco porque trabalha mal. <em>Ganha pouco porque:</em>
+            A maioria das Manicures não ganha pouco porque trabalha mal. <em>Ganha pouco porque:</em>
           </p>
           <div className="mt-8 space-y-4 text-left mx-auto max-w-md">
             <p className="flex items-center gap-3"><XCircle className="text-destructive w-6 h-6 shrink-0"/> Não sabe se <strong>posicionar</strong></p>
@@ -241,7 +241,7 @@ export default function Home() {
       {/* What You'll Learn */}
       <section className="w-full py-16 lg:py-24 bg-background">
         <div className="container mx-auto px-4 max-w-4xl">
-          <h2 className="font-headline text-3xl md:text-4xl font-bold text-center mb-12">Com o Nail Designer Bem Paga, você vai <strong>aprender</strong>:</h2>
+          <h2 className="font-headline text-3xl md:text-4xl font-bold text-center mb-12">Com o Manicure Bem Paga, você vai <strong>aprender</strong>:</h2>
           <div className="grid sm:grid-cols-2 gap-8">
             <div className="flex items-start gap-4">
               <div className="bg-primary/10 p-3 rounded-lg"><Wallet className="w-6 h-6 text-primary" /></div>
@@ -348,7 +348,7 @@ export default function Home() {
            <Card className="mt-8 text-left">
             <CardContent className="p-8">
                 <ul className="space-y-3 text-lg">
-                  <XListItem>Você não atende como Nail Designer</XListItem>
+                  <XListItem>Você não atende como Manicure</XListItem>
                   <XListItem>Você acha que <em>preço baixo</em> é a <strong>única</strong> estratégia</XListItem>
                   <XListItem>Você <strong>não quer</strong> mudar sua postura profissional</XListItem>
                   <XListItem>Você espera um <strong>milagre</strong> sem aplicar o conteúdo</XListItem>
@@ -372,7 +372,7 @@ export default function Home() {
               <p className="font-bold text-lg">Mas pode mudar <strong>completamente</strong> quanto você ganha por mês.</p>
               <Button asChild size="lg" className="mt-8 w-full md:w-auto text-lg py-7 px-10 animate-pulse">
                 <Link href="https://pay.kiwify.com.br/TdOc13P">
-                  NAIL DESIGNER BEM PAGA
+                  MANICURE BEM PAGA
                 </Link>
               </Button>
             </CardContent>
@@ -404,7 +404,7 @@ export default function Home() {
           </p>
           <Button asChild size="lg" variant="secondary" className="mt-8 group text-lg">
             <Link href="#pricing">
-              NAIL DESIGNER BEM PAGA <ArrowRight className="ml-2 h-5 w-5 group-hover:translate-x-1 transition-transform" />
+              MANICURE BEM PAGA <ArrowRight className="ml-2 h-5 w-5 group-hover:translate-x-1 transition-transform" />
             </Link>
           </Button>
         </div>
