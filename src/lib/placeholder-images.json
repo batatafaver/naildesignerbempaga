@@ -2,13 +2,13 @@
   "placeholderImages": [
     {
       "id": "hero-manicure",
-      "description": "A close-up of a Nail Designer applying polish.",
+      "description": "A close-up of a Manicure applying polish.",
       "imageUrl": "https://images.unsplash.com/photo-1655477079276-ecc3ed99b6da?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw4fHxtYW5pY3VyZSUyMG5haWxzfGVufDB8fHx8MTc2OTg4NjcxMXww&ixlib=rb-4.1.0&q=80&w=1080",
-      "imageHint": "Nail Designer nails"
+      "imageHint": "Manicure nails"
     },
     {
       "id": "guide-cover",
-      "description": "Nail designer segurando dinheiro, representando o sucesso financeiro possível com o método.",
+      "description": "Manicure segurando dinheiro, representando o sucesso financeiro possível com o método.",
       "imageUrl": "https://i.postimg.cc/GprQtmBs/image.png",
       "imageHint": "unhas dinheiro"
     },
@@ -21,7 +21,7 @@
     {
       "id": "kelly-martins",
       "description": "Foto da criadora do método, Kelly Martins",
-      "imageUrl": "https://i.postimg.cc/CxpwTbR2/image-(4).png",
+      "imageUrl": "https://i.postimg.cc/0y9ykghY/image-(4).png",
       "imageHint": "woman portrait"
     },
     {

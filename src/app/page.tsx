@@ -42,16 +42,16 @@ export default function Home() {
         <div className="container mx-auto px-4">
           <div className="grid md:grid-cols-2 gap-12 items-center">
               <div className="relative md:order-last flex justify-center">
-                  {guideCoverImage && (
+                  {kellyImage && (
                       <div className="relative">
                           <Image
-                              src={guideCoverImage.imageUrl}
-                              alt={guideCoverImage.description}
+                              src={kellyImage.imageUrl}
+                              alt={kellyImage.description}
                               width={400}
                               height={400}
                               className="w-48 h-48 md:w-96 md:h-96 rounded-full aspect-square object-cover object-center shadow-2xl mx-auto"
                               priority
-                              data-ai-hint={guideCoverImage.imageHint}
+                              data-ai-hint={kellyImage.imageHint}
                           />
                            <div className="absolute bottom-0 right-0 left-0 mx-auto w-fit bg-card/80 backdrop-blur-sm p-3 rounded-lg shadow-lg text-center">
                               <p className="font-bold text-card-foreground">Kelly Martins</p>
