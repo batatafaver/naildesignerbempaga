@@ -53,6 +53,24 @@
       "description": "Quarto depoimento com comprovante de ganhos.",
       "imageUrl": "https://i.postimg.cc/L8v5BYBH/Design-sem-nome-(15).png",
       "imageHint": "earnings proof"
+    },
+    {
+      "id": "mockup-1",
+      "description": "Mockup do Guia Manicure Bem Paga em um celular",
+      "imageUrl": "https://i.postimg.cc/qMwrRRPD/Chat-GPT-Image-31-01-2026-20-51-49.png",
+      "imageHint": "guide mockup"
+    },
+    {
+      "id": "mockup-2",
+      "description": "Mockup do Guia Manicure Bem Paga com checklists",
+      "imageUrl": "https://i.postimg.cc/L6DSXXcV/Chat-GPT-Image-31-01-2026-20-59-14.png",
+      "imageHint": "guide checklist"
+    },
+    {
+      "id": "mockup-3",
+      "description": "Mockup do Guia Manicure Bem Paga com mensagens prontas",
+      "imageUrl": "https://i.postimg.cc/qM404n57/Chat-GPT-Image-31-01-2026-21-02-01.png",
+      "imageHint": "guide scripts"
     }
   ]
 }

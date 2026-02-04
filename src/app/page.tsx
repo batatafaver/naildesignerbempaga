@@ -33,6 +33,10 @@ export default function Home() {
   const testimonial2 = PlaceHolderImages.find(p => p.id === 'testimonial-2');
   const testimonial3 = PlaceHolderImages.find(p => p.id === 'testimonial-3');
   const testimonial4 = PlaceHolderImages.find(p => p.id === 'testimonial-4');
+  
+  const mockup1 = PlaceHolderImages.find(p => p.id === 'mockup-1');
+  const mockup2 = PlaceHolderImages.find(p => p.id === 'mockup-2');
+  const mockup3 = PlaceHolderImages.find(p => p.id === 'mockup-3');
 
   return (
     <main className="flex flex-col items-center overflow-hidden">
@@ -297,16 +301,47 @@ export default function Home() {
         <div className="container mx-auto px-4 max-w-4xl">
           <h2 className="font-headline text-3xl md:text-4xl font-bold text-center mb-12">O que tem <strong>dentro</strong> do material</h2>
           <Card>
-            <CardContent className="p-8 grid sm:grid-cols-2 gap-8">
-              <ul className="space-y-4">
-                <CheckListItem>Guia digital em PDF (<strong>leitura rápida</strong>)</CheckListItem>
-                <CheckListItem>Checklists <strong>simples e práticos</strong></CheckListItem>
-                <CheckListItem><strong>Mensagens prontas</strong> para WhatsApp</CheckListItem>
-                <CheckListItem>Linguagem <strong>fácil</strong>, <em>sem termos difíceis</em></CheckListItem>
-              </ul>
-              <div className="text-center bg-card p-6 rounded-lg">
-                <p className="font-bold text-lg">Pode ser consumido em <em>1 a 2 horas</em></p>
-                <p className="text-primary font-semibold text-xl mt-2">Aplicação <strong>imediata!</strong></p>
+            <CardContent className="p-8">
+              <div className="grid sm:grid-cols-2 gap-8 mb-8">
+                <ul className="space-y-4">
+                  <CheckListItem>Guia digital em PDF (<strong>leitura rápida</strong>)</CheckListItem>
+                  <CheckListItem>Checklists <strong>simples e práticos</strong></CheckListItem>
+                  <CheckListItem><strong>Mensagens prontas</strong> para WhatsApp</CheckListItem>
+                  <CheckListItem>Linguagem <strong>fácil</strong>, <em>sem termos difíceis</em></CheckListItem>
+                </ul>
+                <div className="text-center bg-card p-6 rounded-lg my-auto border">
+                  <p className="font-bold text-lg">Pode ser consumido em <em>1 a 2 horas</em></p>
+                  <p className="text-primary font-semibold text-xl mt-2">Aplicação <strong>imediata!</strong></p>
+                </div>
+              </div>
+              <div className="grid grid-cols-1 sm:grid-cols-3 gap-4">
+                {mockup1 && (
+                  <Image 
+                    src={mockup1.imageUrl} 
+                    alt={mockup1.description} 
+                    width={400} 
+                    height={533} 
+                    className="rounded-lg shadow-md w-full object-cover aspect-[3/4]" 
+                    data-ai-hint={mockup1.imageHint} />
+                )}
+                {mockup2 && (
+                   <Image 
+                    src={mockup2.imageUrl} 
+                    alt={mockup2.description} 
+                    width={400} 
+                    height={533} 
+                    className="rounded-lg shadow-md w-full object-cover aspect-[3/4]" 
+                    data-ai-hint={mockup2.imageHint} />
+                )}
+                {mockup3 && (
+                  <Image 
+                    src={mockup3.imageUrl} 
+                    alt={mockup3.description} 
+                    width={400} 
+                    height={533} 
+                    className="rounded-lg shadow-md w-full object-cover aspect-[3/4]" 
+                    data-ai-hint={mockup3.imageHint} />
+                )}
               </div>
             </CardContent>
           </Card>
