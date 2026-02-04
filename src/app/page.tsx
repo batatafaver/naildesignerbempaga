@@ -227,13 +227,13 @@ export default function Home() {
             </Button>
           </div>
           <div className="text-center md:text-left">
-            {kellyTransformationImage && (
+            {guideCoverImage && (
               <Image
-                src={kellyTransformationImage.imageUrl}
-                alt={kellyTransformationImage.description}
+                src={guideCoverImage.imageUrl}
+                alt={guideCoverImage.description}
                 width={400}
                 height={500}
-                data-ai-hint={kellyTransformationImage.imageHint}
+                data-ai-hint={guideCoverImage.imageHint}
                 className="rounded-lg shadow-2xl mx-auto object-cover w-full h-auto aspect-[4/5] max-w-[400px]"
               />
             )}
