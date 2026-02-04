@@ -321,7 +321,7 @@ export default function Home() {
                     alt={mockup1.description} 
                     width={400} 
                     height={533} 
-                    className="rounded-lg shadow-md w-full object-cover aspect-[3/4]" 
+                    className="rounded-lg shadow-md w-full object-contain aspect-[3/4]" 
                     data-ai-hint={mockup1.imageHint} />
                 )}
                 {mockup2 && (
@@ -330,7 +330,7 @@ export default function Home() {
                     alt={mockup2.description} 
                     width={400} 
                     height={533} 
-                    className="rounded-lg shadow-md w-full object-cover aspect-[3/4]" 
+                    className="rounded-lg shadow-md w-full object-contain aspect-[3/4]" 
                     data-ai-hint={mockup2.imageHint} />
                 )}
                 {mockup3 && (
@@ -339,7 +339,7 @@ export default function Home() {
                     alt={mockup3.description} 
                     width={400} 
                     height={533} 
-                    className="rounded-lg shadow-md w-full object-cover aspect-[3/4]" 
+                    className="rounded-lg shadow-md w-full object-contain aspect-[3/4]" 
                     data-ai-hint={mockup3.imageHint} />
                 )}
               </div>
