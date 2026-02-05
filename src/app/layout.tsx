@@ -5,6 +5,7 @@ import { Header } from '@/components/Header';
 import { Footer } from '@/components/Footer';
 import { Poppins } from 'next/font/google';
 import { Pixel } from '@/components/Pixel';
+import { SalesNotification } from '@/components/SalesNotification';
 
 const poppins = Poppins({
   subsets: ['latin'],
@@ -31,6 +32,7 @@ export default function RootLayout({
         <Footer />
         <Toaster />
         <Pixel />
+        <SalesNotification />
       </body>
     </html>
   );
